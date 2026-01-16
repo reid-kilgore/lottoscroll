@@ -61,13 +61,11 @@ async function main() {
 
   // Load pool files
   const articlesPath = path.join(POOL_DIR, 'articles.json')
-  const tidalTracksPath = path.join(POOL_DIR, 'tidal.json')
   const tidalVideosPath = path.join(POOL_DIR, 'tidal-videos.json')
   const gamesPath = path.join(POOL_DIR, 'games.json')
 
   let articles: Activity[] = []
   let nebulaVideos: Activity[] = []
-  let tidalTracks: Activity[] = []
   let tidalVideos: Activity[] = []
   let games: Activity[] = []
 
@@ -78,14 +76,6 @@ async function main() {
     console.log(`Loaded ${articles.length} articles, ${nebulaVideos.length} Nebula videos from pool`)
   } else {
     console.log('No articles.json found in pool')
-  }
-
-  if (fs.existsSync(tidalTracksPath)) {
-    const data = JSON.parse(fs.readFileSync(tidalTracksPath, 'utf-8'))
-    tidalTracks = data.tracks || []
-    console.log(`Loaded ${tidalTracks.length} Tidal tracks from pool`)
-  } else {
-    console.log('No tidal.json found in pool')
   }
 
   if (fs.existsSync(tidalVideosPath)) {
@@ -112,25 +102,23 @@ async function main() {
   }
 
   // Target: ~40 cards
-  // Ratio: 40% articles, 35% tidal music videos, 15% nebula, 10% tidal tracks
+  // Ratio: 45% articles, 40% tidal music videos, 15% nebula
   const TARGET_TOTAL = 40
-  const articleCount = Math.round(TARGET_TOTAL * 0.4)
-  const tidalVideoCount = Math.round(TARGET_TOTAL * 0.35)
+  const articleCount = Math.round(TARGET_TOTAL * 0.45)
+  const tidalVideoCount = Math.round(TARGET_TOTAL * 0.40)
   const nebulaCount = Math.round(TARGET_TOTAL * 0.15)
-  const tidalTrackCount = Math.round(TARGET_TOTAL * 0.1)
 
-  console.log(`\nSampling: ${articleCount} articles, ${tidalVideoCount} tidal videos, ${nebulaCount} nebula, ${tidalTrackCount} tidal tracks`)
+  console.log(`\nSampling: ${articleCount} articles, ${tidalVideoCount} tidal videos, ${nebulaCount} nebula`)
 
   // Sample from each pool
   const sampledArticles = sample(articles, articleCount, random)
   const sampledTidalVideos = sample(tidalVideos, tidalVideoCount, random)
   const sampledNebula = sample(nebulaVideos, nebulaCount, random)
-  const sampledTidalTracks = sample(tidalTracks, tidalTrackCount, random)
 
-  console.log(`Got: ${sampledArticles.length} articles, ${sampledTidalVideos.length} tidal videos, ${sampledNebula.length} nebula, ${sampledTidalTracks.length} tidal tracks`)
+  console.log(`Got: ${sampledArticles.length} articles, ${sampledTidalVideos.length} tidal videos, ${sampledNebula.length} nebula`)
 
   // Combine and shuffle
-  const combined = [...sampledArticles, ...sampledTidalVideos, ...sampledNebula, ...sampledTidalTracks]
+  const combined = [...sampledArticles, ...sampledTidalVideos, ...sampledNebula]
   const shuffled = shuffle(combined, random)
 
   // Insert evergreen content at random positions (always included)
