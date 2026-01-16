@@ -1,0 +1,2522 @@
+{
+  "generated_at": "2025-12-12T15:32:21.630Z",
+  "releases": [
+    {
+      "id": "446039372",
+      "title": "I Love My Computer",
+      "artist": "Ninajirachi",
+      "release_date": "2025-08-08T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/e8b61fd5/ca55/40c8/99fb/a4c11d1a6b74/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 12,
+      "added_to_library": "2025-11-01T17:43:15.567+0000",
+      "earliest_track_added": "2025-11-01T17:43:15.567+0000",
+      "latest_track_added": "2025-11-01T17:43:15.567+0000",
+      "duration": 0,
+      "number_of_tracks": 12,
+      "popularity": 38,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "iPod Touch",
+          "track_id": 439063582,
+          "added": "2025-11-01T17:43:15.567+0000"
+        }
+      ],
+      "rank": 1,
+      "archived": false
+    },
+    {
+      "id": "432856294",
+      "title": "Fancy That",
+      "artist": "PinkPantheress",
+      "release_date": "2025-05-09T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/4e510012/6515/425b/9972/9a39019bdcd7/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-05-13T12:40:30.435+0000",
+      "earliest_track_added": "2025-05-13T12:40:30.435+0000",
+      "latest_track_added": "2025-05-13T12:40:30.435+0000",
+      "duration": 1234,
+      "number_of_tracks": 9,
+      "popularity": 70,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Girl Like Me",
+          "track_id": 432856297,
+          "added": "2025-05-13T12:40:30.435+0000"
+        }
+      ],
+      "rank": 2,
+      "archived": false
+    },
+    {
+      "id": "421826023",
+      "title": "Revengeseekerz",
+      "artist": "Jane Remover",
+      "release_date": "2025-04-04T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/4b7b9e53/e2f4/4a7e/a04d/7d5a0f1aa1b1/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 12,
+      "added_to_library": "2025-06-28T14:40:36.374+0000",
+      "earliest_track_added": "2025-06-28T14:40:36.374+0000",
+      "latest_track_added": "2025-06-28T14:40:36.374+0000",
+      "duration": 0,
+      "number_of_tracks": 12,
+      "popularity": 44,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Dancing with your eyes closed",
+          "track_id": 417591891,
+          "added": "2025-06-28T14:40:36.374+0000"
+        }
+      ],
+      "rank": 3,
+      "archived": false
+    },
+    {
+      "id": "472230531",
+      "title": "LUX",
+      "artist": "ROSALÍA",
+      "release_date": "2025-11-07T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/054967dc/25c2/4ee7/be47/ee9464f5db60/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 6,
+      "added_to_library": "2025-11-18T18:33:31.890+0000",
+      "earliest_track_added": "2025-11-18T18:33:31.890+0000",
+      "latest_track_added": "2025-12-05T15:17:46.560+0000",
+      "duration": 2976,
+      "number_of_tracks": 15,
+      "popularity": 72,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Berghain",
+          "track_id": 472230538,
+          "added": "2025-11-18T18:33:48.365+0000"
+        },
+        {
+          "title": "Berghain",
+          "track_id": 472230538,
+          "added": "2025-11-18T18:33:48.365+0000"
+        },
+        {
+          "title": "De Madrugá",
+          "track_id": 472230542,
+          "added": "2025-12-05T15:17:46.560+0000"
+        },
+        {
+          "title": "Divinize",
+          "track_id": 472230535,
+          "added": "2025-11-18T18:33:39.465+0000"
+        },
+        {
+          "title": "Porcelana",
+          "track_id": 472230536,
+          "added": "2025-12-05T15:06:25.127+0000"
+        },
+        {
+          "title": "Reliquia",
+          "track_id": 472230534,
+          "added": "2025-11-18T18:33:31.890+0000"
+        }
+      ],
+      "rank": 4,
+      "archived": false
+    },
+    {
+      "id": "434424004",
+      "title": "CONTROL",
+      "artist": "Frost Children",
+      "release_date": "2025-06-03T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/3332a66c/17b8/41fc/a339/ff0031be5699/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-30T17:40:34.164+0000",
+      "earliest_track_added": "2025-11-30T17:40:34.164+0000",
+      "latest_track_added": "2025-11-30T17:40:34.164+0000",
+      "duration": 155,
+      "number_of_tracks": 1,
+      "popularity": 37,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "CONTROL",
+          "track_id": 434424005,
+          "added": "2025-11-30T17:40:34.164+0000"
+        }
+      ],
+      "rank": 5,
+      "archived": false
+    },
+    {
+      "id": "468760979",
+      "title": "West End Girl",
+      "artist": "Lily Allen",
+      "release_date": "2025-10-24T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/5f1bbbd1/bf9e/4356/9fd7/b318f236bc00/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-11-06T15:54:41.115+0000",
+      "earliest_track_added": "2025-11-06T15:54:41.115+0000",
+      "latest_track_added": "2025-11-06T15:54:41.115+0000",
+      "duration": 2699,
+      "number_of_tracks": 14,
+      "popularity": 52,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "West End Girl",
+          "track_id": 468760980,
+          "added": "2025-11-06T15:54:41.115+0000"
+        }
+      ],
+      "rank": 6,
+      "archived": false
+    },
+    {
+      "id": "436252631",
+      "title": "T0M F00LERY",
+      "artist": "REYSHA RAMI",
+      "release_date": "2025-07-02T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/a29624cb/cb53/47a5/b3ae/c24aa3151645/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 4,
+      "added_to_library": "2025-07-07T22:47:35.004+0000",
+      "earliest_track_added": "2025-07-07T22:47:35.004+0000",
+      "latest_track_added": "2025-07-08T10:35:33.877+0000",
+      "duration": 1375,
+      "number_of_tracks": 10,
+      "popularity": 40,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "DISCOTEQ",
+          "track_id": 436252634,
+          "added": "2025-07-08T10:13:46.458+0000"
+        },
+        {
+          "title": "FREAKEE",
+          "track_id": 436252633,
+          "added": "2025-07-08T10:09:42.688+0000"
+        },
+        {
+          "title": "I LIKE IT A LOT!",
+          "track_id": 436252641,
+          "added": "2025-07-08T10:35:33.877+0000"
+        },
+        {
+          "title": "i’m in your pocket…",
+          "track_id": 436252632,
+          "added": "2025-07-07T22:47:35.004+0000"
+        }
+      ],
+      "rank": 7,
+      "archived": false
+    },
+    {
+      "id": "413231392",
+      "title": "Black Hole Superette",
+      "artist": "Aesop Rock",
+      "release_date": "2025-05-30T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/6e78ad6f/3adb/4aff/ae2e/2ff0a91d1ea1/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 3,
+      "added_to_library": "2025-06-10T15:19:17.251+0000",
+      "earliest_track_added": "2025-06-10T15:19:17.251+0000",
+      "latest_track_added": "2025-06-15T21:39:36.798+0000",
+      "duration": 4100,
+      "number_of_tracks": 18,
+      "popularity": 62,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "John Something",
+          "track_id": 413231400,
+          "added": "2025-06-15T21:39:36.798+0000"
+        },
+        {
+          "title": "Secret Knock",
+          "track_id": 413231393,
+          "added": "2025-06-10T15:19:17.251+0000"
+        },
+        {
+          "title": "So Be It",
+          "track_id": 413231398,
+          "added": "2025-06-15T21:35:37.786+0000"
+        }
+      ],
+      "rank": 8,
+      "archived": false
+    },
+    {
+      "id": "443743061",
+      "title": "kill wellsy",
+      "artist": "blackwinterwells",
+      "release_date": "2025-07-05T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/ae01afd1/2bcd/4990/bf53/dfd71aef555f/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 2,
+      "added_to_library": "2025-07-12T15:02:04.401+0000",
+      "earliest_track_added": "2025-07-12T15:02:04.401+0000",
+      "latest_track_added": "2025-07-12T15:02:04.401+0000",
+      "duration": 1604,
+      "number_of_tracks": 10,
+      "popularity": 24,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "emperor's new chain",
+          "track_id": 443743063,
+          "added": "2025-07-12T15:02:04.401+0000"
+        },
+        {
+          "title": "emperor's new chain",
+          "track_id": 443743063,
+          "added": "2025-07-12T15:02:04.401+0000"
+        }
+      ],
+      "rank": 9,
+      "archived": false
+    },
+    {
+      "id": "444023358",
+      "title": "Virgin",
+      "artist": "Lorde",
+      "release_date": "2025-06-27T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/6c5b2203/0c3b/41d4/8bbb/efdbbdda455d/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 4,
+      "added_to_library": "2025-06-30T11:33:40.800+0000",
+      "earliest_track_added": "2025-06-30T11:33:40.800+0000",
+      "latest_track_added": "2025-06-30T11:55:38.540+0000",
+      "duration": 2094,
+      "number_of_tracks": 11,
+      "popularity": 70,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "If She Could See Me Now",
+          "track_id": 444023371,
+          "added": "2025-06-30T11:33:40.800+0000"
+        },
+        {
+          "title": "Man Of The Year",
+          "track_id": 444023363,
+          "added": "2025-06-30T11:55:32.899+0000"
+        },
+        {
+          "title": "Shapeshifter",
+          "track_id": 444023361,
+          "added": "2025-06-30T11:55:38.540+0000"
+        },
+        {
+          "title": "What Was That",
+          "track_id": 444023360,
+          "added": "2025-06-30T11:47:17.838+0000"
+        }
+      ],
+      "rank": 10,
+      "archived": false
+    },
+    {
+      "id": "444323971",
+      "title": "STRAWBERRY LEMONADE",
+      "artist": "Miss Madeline",
+      "release_date": "2025-07-18T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/1084894f/7d4c/4962/bccb/cda6bfe63d23/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 2,
+      "added_to_library": "2025-07-19T17:54:42.195+0000",
+      "earliest_track_added": "2025-07-19T17:54:42.195+0000",
+      "latest_track_added": "2025-12-07T17:57:37.658+0000",
+      "duration": 799,
+      "number_of_tracks": 5,
+      "popularity": 35,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "CANDY APPLE DRIP",
+          "track_id": 444323974,
+          "added": "2025-12-07T17:57:37.658+0000"
+        },
+        {
+          "title": "STILLETTO PUMPS IN THE POOL",
+          "track_id": 444323972,
+          "added": "2025-07-19T17:54:42.195+0000"
+        }
+      ],
+      "rank": 11,
+      "archived": false
+    },
+    {
+      "id": "423578417",
+      "title": "Icon Baby",
+      "artist": "Chase Icon",
+      "release_date": "2025-03-24T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/e9b97c32/7095/4226/b60a/a0b3051ec594/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 5,
+      "added_to_library": "2025-10-04T18:00:31.889+0000",
+      "earliest_track_added": "2025-10-04T18:00:31.889+0000",
+      "latest_track_added": "2025-10-05T13:44:35.488+0000",
+      "duration": 1643,
+      "number_of_tracks": 12,
+      "popularity": 48,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Bubblegum",
+          "track_id": 423578419,
+          "added": "2025-10-04T18:00:34.822+0000"
+        },
+        {
+          "title": "Chase Bank",
+          "track_id": 423578420,
+          "added": "2025-10-05T13:44:35.488+0000"
+        },
+        {
+          "title": "Detour",
+          "track_id": 423578422,
+          "added": "2025-10-04T18:00:31.889+0000"
+        },
+        {
+          "title": "IDGAF",
+          "track_id": 423578424,
+          "added": "2025-10-04T18:15:24.725+0000"
+        },
+        {
+          "title": "Mary Kate & Ashley",
+          "track_id": 423578427,
+          "added": "2025-10-05T12:14:41.207+0000"
+        }
+      ],
+      "rank": 12,
+      "archived": false
+    },
+    {
+      "id": "417116193",
+      "title": "High Fashion",
+      "artist": "Addison Rae",
+      "release_date": "2025-02-14T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/59a7ae20/3454/40d3/885a/50c9a86d6e73/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-04-30T11:38:48.893+0000",
+      "earliest_track_added": "2025-04-30T11:38:48.893+0000",
+      "latest_track_added": "2025-04-30T11:38:48.893+0000",
+      "duration": 198,
+      "number_of_tracks": 1,
+      "popularity": 53,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "High Fashion",
+          "track_id": 417116194,
+          "added": "2025-04-30T11:38:48.893+0000"
+        }
+      ],
+      "rank": 13,
+      "archived": false
+    },
+    {
+      "id": "421850005",
+      "title": "MAYHEM",
+      "artist": "Lady Gaga",
+      "release_date": "2025-03-07T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/e3f0bc44/5fd9/4e00/b8aa/c9e67e1969e7/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 2,
+      "added_to_library": "2025-03-13T18:50:24.224+0000",
+      "earliest_track_added": "2025-03-13T18:50:24.224+0000",
+      "latest_track_added": "2025-03-13T18:51:27.122+0000",
+      "duration": 3192,
+      "number_of_tracks": 14,
+      "popularity": 75,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Abracadabra",
+          "track_id": 421850013,
+          "added": "2025-03-13T18:50:24.224+0000"
+        },
+        {
+          "title": "Disease",
+          "track_id": 421850010,
+          "added": "2025-03-13T18:51:27.122+0000"
+        }
+      ],
+      "rank": 14,
+      "archived": false
+    },
+    {
+      "id": "464529553",
+      "title": "Take Your Places",
+      "artist": "SIDEPIECE",
+      "release_date": "2025-12-05T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/621c6108/12ed/47f2/a4bb/fb7a956348df/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-12-05T11:48:21.239+0000",
+      "earliest_track_added": "2025-12-05T11:48:21.239+0000",
+      "latest_track_added": "2025-12-05T11:48:21.239+0000",
+      "duration": 237,
+      "number_of_tracks": 1,
+      "popularity": 45,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Take Your Places",
+          "track_id": 464529554,
+          "added": "2025-12-05T11:48:21.239+0000"
+        }
+      ],
+      "rank": 15,
+      "archived": false
+    },
+    {
+      "id": "428837316",
+      "title": "viagr aboys",
+      "artist": "Viagra Boys",
+      "release_date": "2025-04-25T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/83a802ea/1339/4fec/99d6/a115320f09f3/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-07-01T20:53:46.798+0000",
+      "earliest_track_added": "2025-07-01T20:53:46.798+0000",
+      "latest_track_added": "2025-07-01T20:53:46.798+0000",
+      "duration": 2242,
+      "number_of_tracks": 11,
+      "popularity": 66,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Pyramid of Health",
+          "track_id": 428837320,
+          "added": "2025-07-01T20:53:46.798+0000"
+        }
+      ],
+      "rank": 16,
+      "archived": false
+    },
+    {
+      "id": "417393841",
+      "title": "memorii",
+      "artist": "Rommii",
+      "release_date": "2025-04-25T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/83bec3dd/883f/497f/968b/f6dedca93d96/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 2,
+      "added_to_library": "2025-04-30T15:25:19.733+0000",
+      "earliest_track_added": "2025-04-30T15:25:19.733+0000",
+      "latest_track_added": "2025-04-30T15:29:22.970+0000",
+      "duration": 601,
+      "number_of_tracks": 4,
+      "popularity": 16,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "drive me crazy",
+          "track_id": 417393844,
+          "added": "2025-04-30T15:29:22.970+0000"
+        },
+        {
+          "title": "yesterday",
+          "track_id": 417393842,
+          "added": "2025-04-30T15:25:19.733+0000"
+        }
+      ],
+      "rank": 17,
+      "archived": false
+    },
+    {
+      "id": "461544156",
+      "title": "superstar",
+      "artist": "Artemas",
+      "release_date": "2025-10-01T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/dc6795fa/5e54/4e83/9c3d/01a257a3b46f/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 2,
+      "added_to_library": "2025-10-03T23:00:15.902+0000",
+      "earliest_track_added": "2025-10-03T23:00:15.902+0000",
+      "latest_track_added": "2025-10-10T11:18:13.714+0000",
+      "duration": 513,
+      "number_of_tracks": 3,
+      "popularity": 49,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "superstar",
+          "track_id": 461544158,
+          "added": "2025-10-03T23:00:15.902+0000"
+        },
+        {
+          "title": "this one's gonna hurt me",
+          "track_id": 461544160,
+          "added": "2025-10-10T11:18:13.714+0000"
+        }
+      ],
+      "rank": 18,
+      "archived": false
+    },
+    {
+      "id": "399614724",
+      "title": "choke enough",
+      "artist": "Oklou",
+      "release_date": "2025-02-28T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/8b460c51/33c3/4560/bbb4/b4b523f06da8/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 2,
+      "added_to_library": "2025-06-28T14:48:34.613+0000",
+      "earliest_track_added": "2025-06-28T14:48:34.613+0000",
+      "latest_track_added": "2025-07-10T11:24:13.999+0000",
+      "duration": 2144,
+      "number_of_tracks": 13,
+      "popularity": 63,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "blade bird",
+          "track_id": 399614741,
+          "added": "2025-07-10T11:24:13.999+0000"
+        },
+        {
+          "title": "take me by the hand",
+          "track_id": 399614735,
+          "added": "2025-06-28T14:48:34.613+0000"
+        }
+      ],
+      "rank": 19,
+      "archived": false
+    },
+    {
+      "id": "441301037",
+      "title": "CUNTY",
+      "artist": "Maleigh Zan",
+      "release_date": "2025-08-08T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/4ee15605/50a5/4477/8b33/aaa2898cc474/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-06T14:12:37.971+0000",
+      "earliest_track_added": "2025-10-06T14:12:37.971+0000",
+      "latest_track_added": "2025-10-06T14:12:37.971+0000",
+      "duration": 190,
+      "number_of_tracks": 1,
+      "popularity": 33,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "CUNTY",
+          "track_id": 441301038,
+          "added": "2025-10-06T14:12:37.971+0000"
+        }
+      ],
+      "rank": 20,
+      "archived": false
+    },
+    {
+      "id": "451672293",
+      "title": "Sippin",
+      "artist": "DEJA",
+      "release_date": "2025-08-15T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/b7ed233d/3325/49d3/a95e/ad6fe5503698/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-10T11:47:05.342+0000",
+      "earliest_track_added": "2025-11-10T11:47:05.342+0000",
+      "latest_track_added": "2025-11-10T11:47:05.342+0000",
+      "duration": 158,
+      "number_of_tracks": 1,
+      "popularity": 32,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Sippin",
+          "track_id": 451672294,
+          "added": "2025-11-10T11:47:05.342+0000"
+        }
+      ],
+      "rank": 21,
+      "archived": false
+    },
+    {
+      "id": "446486675",
+      "title": "KURU KURU HARAJUKU",
+      "artist": "Kyary Pamyu Pamyu",
+      "release_date": "2025-07-18T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/2cca2b80/624f/4455/b965/50f9dbc81046/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-07-19T17:55:04.131+0000",
+      "earliest_track_added": "2025-07-19T17:55:04.131+0000",
+      "latest_track_added": "2025-07-19T17:55:04.131+0000",
+      "duration": 258,
+      "number_of_tracks": 1,
+      "popularity": 21,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "KURU KURU HARAJUKU",
+          "track_id": 446486678,
+          "added": "2025-07-19T17:55:04.131+0000"
+        }
+      ],
+      "rank": 22,
+      "archived": false
+    },
+    {
+      "id": "465914759",
+      "title": "The Manifesto (feat. Trueno and Proof)",
+      "artist": "Gorillaz",
+      "release_date": "2025-10-13T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/22c3a6d4/bd8b/4cd9/b4b9/5b37de485384/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 1,
+      "added_to_library": "2025-10-20T22:17:34.330+0000",
+      "earliest_track_added": "2025-10-20T22:17:34.330+0000",
+      "latest_track_added": "2025-10-20T22:17:34.330+0000",
+      "duration": 873,
+      "number_of_tracks": 3,
+      "popularity": 47,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "The Manifesto (feat. Trueno and Proof)",
+          "track_id": 465914761,
+          "added": "2025-10-20T22:17:34.330+0000"
+        }
+      ],
+      "rank": 23,
+      "archived": false
+    },
+    {
+      "id": "476707123",
+      "title": "♡",
+      "artist": "Jane Remover",
+      "release_date": "2025-12-05T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/eb33f6e9/a749/493a/8a19/ee872c7a152c/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-12-05T11:41:32.057+0000",
+      "earliest_track_added": "2025-12-05T11:41:32.057+0000",
+      "latest_track_added": "2025-12-05T11:41:32.057+0000",
+      "duration": 1611,
+      "number_of_tracks": 6,
+      "popularity": 43,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "How To Teleport",
+          "track_id": 476707129,
+          "added": "2025-12-05T11:41:32.057+0000"
+        }
+      ],
+      "rank": 24,
+      "archived": false
+    },
+    {
+      "id": "443885999",
+      "title": "EARTHQUAKE",
+      "artist": "NoisY",
+      "release_date": "2025-07-10T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/51be618e/1f5f/4fa9/b7d4/bfa6f5a0102d/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-09-19T01:42:42.848+0000",
+      "earliest_track_added": "2025-09-19T01:42:42.848+0000",
+      "latest_track_added": "2025-09-19T01:42:42.848+0000",
+      "duration": 182,
+      "number_of_tracks": 1,
+      "popularity": 9,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "EARTHQUAKE",
+          "track_id": 443886000,
+          "added": "2025-09-19T01:42:42.848+0000"
+        }
+      ],
+      "rank": 25,
+      "archived": false
+    },
+    {
+      "id": "426719605",
+      "title": "star",
+      "artist": "2hollis",
+      "release_date": "2025-04-04T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/2ddd7174/aa03/4d06/bc42/43ba9f6d70cb/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-06-28T14:26:25.331+0000",
+      "earliest_track_added": "2025-06-28T14:26:25.331+0000",
+      "latest_track_added": "2025-06-28T14:26:25.331+0000",
+      "duration": 2286,
+      "number_of_tracks": 15,
+      "popularity": 54,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "flash",
+          "track_id": 426719608,
+          "added": "2025-06-28T14:26:25.331+0000"
+        }
+      ],
+      "rank": 26,
+      "archived": false
+    },
+    {
+      "id": "414372429",
+      "title": "afraid",
+      "artist": "2hollis",
+      "release_date": "2025-01-30T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/921c2f0e/aa33/44ce/ab12/c6c03b4b6b67/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-05-15T10:25:31.847+0000",
+      "earliest_track_added": "2025-05-15T10:25:31.847+0000",
+      "latest_track_added": "2025-05-15T10:25:31.847+0000",
+      "duration": 179,
+      "number_of_tracks": 1,
+      "popularity": 44,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "afraid",
+          "track_id": 414372430,
+          "added": "2025-05-15T10:25:31.847+0000"
+        }
+      ],
+      "rank": 27,
+      "archived": false
+    },
+    {
+      "id": "428116309",
+      "title": "TENTEN",
+      "artist": "NotioN",
+      "release_date": "2025-04-11T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/ff7ec759/facd/43ba/9e75/531ea77ad1cd/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-07-31T09:52:10.627+0000",
+      "earliest_track_added": "2025-07-31T09:52:10.627+0000",
+      "latest_track_added": "2025-07-31T09:52:10.627+0000",
+      "duration": 209,
+      "number_of_tracks": 1,
+      "popularity": 32,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "TENTEN",
+          "track_id": 428116312,
+          "added": "2025-07-31T09:52:10.627+0000"
+        }
+      ],
+      "rank": 28,
+      "archived": false
+    },
+    {
+      "id": "446120613",
+      "title": "Victory Lap Five",
+      "artist": "Fred again..",
+      "release_date": "2025-07-09T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/f2173cab/a54b/4746/8b9e/7d957e319ee7/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 2,
+      "added_to_library": "2025-07-17T10:59:41.219+0000",
+      "earliest_track_added": "2025-07-17T10:59:41.219+0000",
+      "latest_track_added": "2025-07-17T10:59:41.219+0000",
+      "duration": 345,
+      "number_of_tracks": 1,
+      "popularity": 50,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Victory Lap Five",
+          "track_id": 446120616,
+          "added": "2025-07-17T10:59:41.219+0000"
+        },
+        {
+          "title": "Victory Lap Five",
+          "track_id": 446120616,
+          "added": "2025-07-17T10:59:41.219+0000"
+        }
+      ],
+      "rank": 29,
+      "archived": false
+    },
+    {
+      "id": "441747101",
+      "title": "Victory Lap",
+      "artist": "Fred again..",
+      "release_date": "2025-06-18T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/475aec51/d22b/4ec7/b779/c82afb5f81cc/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 2,
+      "added_to_library": "2025-07-28T11:05:18.161+0000",
+      "earliest_track_added": "2025-07-28T11:05:18.161+0000",
+      "latest_track_added": "2025-07-28T11:05:18.161+0000",
+      "duration": 166,
+      "number_of_tracks": 1,
+      "popularity": 57,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Victory Lap",
+          "track_id": 441747102,
+          "added": "2025-07-28T11:05:18.161+0000"
+        },
+        {
+          "title": "Victory Lap",
+          "track_id": 441747102,
+          "added": "2025-07-28T11:05:18.161+0000"
+        }
+      ],
+      "rank": 30,
+      "archived": false
+    },
+    {
+      "id": "444100836",
+      "title": "Music",
+      "artist": "underscores",
+      "release_date": "2025-06-27T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/1491bad7/04bd/4411/a8a6/dda866d1e8fd/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-07-17T11:20:39.448+0000",
+      "earliest_track_added": "2025-07-17T11:20:39.448+0000",
+      "latest_track_added": "2025-07-17T11:20:39.448+0000",
+      "duration": 207,
+      "number_of_tracks": 1,
+      "popularity": 48,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Music",
+          "track_id": 444100838,
+          "added": "2025-07-17T11:20:39.448+0000"
+        }
+      ],
+      "rank": 31,
+      "archived": false
+    },
+    {
+      "id": "414228688",
+      "title": "No Front Teeth",
+      "artist": "Perfume Genius",
+      "release_date": "2025-02-19T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/f2ca593a/7eda/4719/8518/d662eb709e26/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-03-25T18:44:59.619+0000",
+      "earliest_track_added": "2025-03-25T18:44:59.619+0000",
+      "latest_track_added": "2025-03-25T18:44:59.619+0000",
+      "duration": 286,
+      "number_of_tracks": 1,
+      "popularity": 51,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "No Front Teeth",
+          "track_id": 414228689,
+          "added": "2025-03-25T18:44:59.619+0000"
+        }
+      ],
+      "rank": 32,
+      "archived": false
+    },
+    {
+      "id": "469019092",
+      "title": "tracing hearts",
+      "artist": "blackwinterwells",
+      "release_date": "2025-11-28T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/eddf4ab6/ee9c/4745/8ffb/89dd987b24b0/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 1,
+      "added_to_library": "2025-12-01T14:58:11.710+0000",
+      "earliest_track_added": "2025-12-01T14:58:11.710+0000",
+      "latest_track_added": "2025-12-01T14:58:11.710+0000",
+      "duration": 671,
+      "number_of_tracks": 4,
+      "popularity": 33,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "untitled",
+          "track_id": 469019097,
+          "added": "2025-12-01T14:58:11.710+0000"
+        }
+      ],
+      "rank": 33,
+      "archived": false
+    },
+    {
+      "id": "424669542",
+      "title": "Evangelic Girl is a Gun",
+      "artist": "yeule",
+      "release_date": "2025-04-08T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/da1f214b/9a5f/4c5d/9ca9/e17717e1850c/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-06-15T21:16:57.299+0000",
+      "earliest_track_added": "2025-06-15T21:16:57.299+0000",
+      "latest_track_added": "2025-06-15T21:16:57.299+0000",
+      "duration": 534,
+      "number_of_tracks": 3,
+      "popularity": 45,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Evangelic Girl is a Gun",
+          "track_id": 424669543,
+          "added": "2025-06-15T21:16:57.299+0000"
+        }
+      ],
+      "rank": 34,
+      "archived": false
+    },
+    {
+      "id": "459223502",
+      "title": "UNCONDITIONAL",
+      "artist": "NotioN",
+      "release_date": "2025-09-12T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/c70273c6/11a7/49af/851c/6ebecfce8ec6/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-09-29T10:31:56.207+0000",
+      "earliest_track_added": "2025-09-29T10:31:56.207+0000",
+      "latest_track_added": "2025-09-29T10:31:56.207+0000",
+      "duration": 181,
+      "number_of_tracks": 1,
+      "popularity": 29,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "UNCONDITIONAL",
+          "track_id": 459223506,
+          "added": "2025-09-29T10:31:56.207+0000"
+        }
+      ],
+      "rank": 35,
+      "archived": false
+    },
+    {
+      "id": "450181661",
+      "title": "Everything Changes (But I Won’t)",
+      "artist": "Rose Gray",
+      "release_date": "2025-08-01T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/71ff8fda/675b/4d02/b6c8/697019920ffc/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-06T21:53:25.909+0000",
+      "earliest_track_added": "2025-08-06T21:53:25.909+0000",
+      "latest_track_added": "2025-08-06T21:53:25.909+0000",
+      "duration": 235,
+      "number_of_tracks": 1,
+      "popularity": 20,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Everything Changes (But I Won't)",
+          "track_id": 450181662,
+          "added": "2025-08-06T21:53:25.909+0000"
+        }
+      ],
+      "rank": 36,
+      "archived": false
+    },
+    {
+      "id": "465075038",
+      "title": "Smoochies",
+      "artist": "Ashnikko",
+      "release_date": "2025-10-17T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/c51f0907/3152/42e4/a2d7/7ae6db859119/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-12-02T11:28:36.322+0000",
+      "earliest_track_added": "2025-12-02T11:28:36.322+0000",
+      "latest_track_added": "2025-12-02T11:28:36.322+0000",
+      "duration": 2263,
+      "number_of_tracks": 15,
+      "popularity": 59,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "I Want My Boyfriends to Kiss",
+          "track_id": 465075048,
+          "added": "2025-12-02T11:28:36.322+0000"
+        }
+      ],
+      "rank": 37,
+      "archived": false
+    },
+    {
+      "id": "418765667",
+      "title": "So Close To What",
+      "artist": "Tate McRae",
+      "release_date": "2025-02-21T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/a9d285bf/565b/401f/91be/812992721634/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-07-02T15:10:21.049+0000",
+      "earliest_track_added": "2025-07-02T15:10:21.049+0000",
+      "latest_track_added": "2025-07-02T15:10:21.049+0000",
+      "duration": 2554,
+      "number_of_tracks": 15,
+      "popularity": 68,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "I know love (feat. The Kid LAROI)",
+          "track_id": 418765677,
+          "added": "2025-07-02T15:10:21.049+0000"
+        }
+      ],
+      "rank": 38,
+      "archived": false
+    },
+    {
+      "id": "420297513",
+      "title": "Big Pink Bubble",
+      "artist": "Beach Bunny",
+      "release_date": "2025-03-21T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/b0c819e2/344e/4538/acc7/e6bb475ac4b8/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-05-05T03:10:06.393+0000",
+      "earliest_track_added": "2025-05-05T03:10:06.393+0000",
+      "latest_track_added": "2025-05-05T03:10:06.393+0000",
+      "duration": 117,
+      "number_of_tracks": 1,
+      "popularity": 37,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Big Pink Bubble",
+          "track_id": 420297514,
+          "added": "2025-05-05T03:10:06.393+0000"
+        }
+      ],
+      "rank": 39,
+      "archived": false
+    },
+    {
+      "id": "418214663",
+      "title": "Do It Again (True Electric)",
+      "artist": "Röyksopp",
+      "release_date": "2025-02-21T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/d462f4c1/5164/4e24/b5e6/a7870c25ac56/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-18T12:24:04.747+0000",
+      "earliest_track_added": "2025-08-18T12:24:04.747+0000",
+      "latest_track_added": "2025-08-18T12:24:04.747+0000",
+      "duration": 293,
+      "number_of_tracks": 1,
+      "popularity": 40,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Do It Again (True Electric)",
+          "track_id": 418214664,
+          "added": "2025-08-18T12:24:04.747+0000"
+        }
+      ],
+      "rank": 40,
+      "archived": false
+    },
+    {
+      "id": "446868290",
+      "title": "Can't Catch Me",
+      "artist": "VTSS",
+      "release_date": "2025-07-16T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/36ab4202/7b1e/43d7/a36f/a118f1fb88ad/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-07T10:44:11.154+0000",
+      "earliest_track_added": "2025-10-07T10:44:11.154+0000",
+      "latest_track_added": "2025-10-07T10:44:11.154+0000",
+      "duration": 126,
+      "number_of_tracks": 1,
+      "popularity": 20,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Can't Catch Me",
+          "track_id": 446868291,
+          "added": "2025-10-07T10:44:11.154+0000"
+        }
+      ],
+      "rank": 41,
+      "archived": false
+    },
+    {
+      "id": "435434337",
+      "title": "Pick Up The Phone",
+      "artist": "Sofi Tukker",
+      "release_date": "2025-06-04T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/3998d653/a216/4307/ade6/d7a72c8c82e0/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-04T16:28:43.964+0000",
+      "earliest_track_added": "2025-08-04T16:28:43.964+0000",
+      "latest_track_added": "2025-08-04T16:28:43.964+0000",
+      "duration": 212,
+      "number_of_tracks": 1,
+      "popularity": 44,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Pick Up The Phone",
+          "track_id": 435434339,
+          "added": "2025-08-04T16:28:43.964+0000"
+        }
+      ],
+      "rank": 42,
+      "archived": false
+    },
+    {
+      "id": "457821035",
+      "title": "booboo2",
+      "artist": "Yaeji",
+      "release_date": "2025-09-23T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/612639d5/12d8/4ac7/8620/fad53c722843/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-03T23:06:49.420+0000",
+      "earliest_track_added": "2025-10-03T23:06:49.420+0000",
+      "latest_track_added": "2025-10-03T23:06:49.420+0000",
+      "duration": 220,
+      "number_of_tracks": 1,
+      "popularity": 48,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "booboo2",
+          "track_id": 457821036,
+          "added": "2025-10-03T23:06:49.420+0000"
+        }
+      ],
+      "rank": 43,
+      "archived": false
+    },
+    {
+      "id": "445006704",
+      "title": "one of the ones",
+      "artist": "Maggie Lindemann",
+      "release_date": "2025-07-25T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/4e96bc53/10e4/4fbc/bd37/479559a119cb/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-23T13:19:18.438+0000",
+      "earliest_track_added": "2025-08-23T13:19:18.438+0000",
+      "latest_track_added": "2025-08-23T13:19:18.438+0000",
+      "duration": 126,
+      "number_of_tracks": 1,
+      "popularity": 30,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "one of the ones",
+          "track_id": 445006705,
+          "added": "2025-08-23T13:19:18.438+0000"
+        }
+      ],
+      "rank": 44,
+      "archived": false
+    },
+    {
+      "id": "410158031",
+      "title": "Someone For Me",
+      "artist": "Kylie Minogue",
+      "release_date": "2025-01-17T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/1acf01a6/e311/471a/a757/c5d9f74ab7b6/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-18T12:03:48.546+0000",
+      "earliest_track_added": "2025-08-18T12:03:48.546+0000",
+      "latest_track_added": "2025-08-18T12:03:48.546+0000",
+      "duration": 139,
+      "number_of_tracks": 1,
+      "popularity": 42,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Someone For Me",
+          "track_id": 410158032,
+          "added": "2025-08-18T12:03:48.546+0000"
+        }
+      ],
+      "rank": 45,
+      "archived": false
+    },
+    {
+      "id": "459322335",
+      "title": "The Happy Dictator (feat. Sparks)",
+      "artist": "Gorillaz",
+      "release_date": "2025-09-11T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/c06b3fe3/cfda/4aaa/9227/019f21de8e20/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-09-16T14:25:56.645+0000",
+      "earliest_track_added": "2025-09-16T14:25:56.645+0000",
+      "latest_track_added": "2025-09-16T14:25:56.645+0000",
+      "duration": 285,
+      "number_of_tracks": 1,
+      "popularity": 55,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "The Happy Dictator (feat. Sparks)",
+          "track_id": 459322336,
+          "added": "2025-09-16T14:25:56.645+0000"
+        }
+      ],
+      "rank": 46,
+      "archived": false
+    },
+    {
+      "id": "471931900",
+      "title": "ALIAS is ME",
+      "artist": "Shygirl",
+      "release_date": "2025-11-21T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/0359c3a0/f933/440c/8ee2/f638253ac1b0/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 1,
+      "added_to_library": "2025-12-01T14:26:14.006+0000",
+      "earliest_track_added": "2025-12-01T14:26:14.006+0000",
+      "latest_track_added": "2025-12-01T14:26:14.006+0000",
+      "duration": 2446,
+      "number_of_tracks": 14,
+      "popularity": 48,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "SLIME is BESTIE [Sega Bodega + JT]",
+          "track_id": 471931902,
+          "added": "2025-12-01T14:26:14.006+0000"
+        }
+      ],
+      "rank": 47,
+      "archived": false
+    },
+    {
+      "id": "465103875",
+      "title": "The Manifesto (feat. Trueno and Proof)",
+      "artist": "Gorillaz",
+      "release_date": "2025-10-08T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/1506cf9e/f3e8/4f2a/ae6e/d0b36cb70a67/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-09T11:59:23.610+0000",
+      "earliest_track_added": "2025-10-09T11:59:23.610+0000",
+      "latest_track_added": "2025-10-09T11:59:23.610+0000",
+      "duration": 439,
+      "number_of_tracks": 1,
+      "popularity": 58,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "The Manifesto (feat. Trueno and Proof)",
+          "track_id": 465103876,
+          "added": "2025-10-09T11:59:23.610+0000"
+        }
+      ],
+      "rank": 48,
+      "archived": false
+    },
+    {
+      "id": "461368330",
+      "title": "ASCEND",
+      "artist": "Kelly Lee Owens",
+      "release_date": "2025-10-09T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/0418687c/6bf4/4709/bd21/9ac0cd660836/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-24T18:40:16.099+0000",
+      "earliest_track_added": "2025-11-24T18:40:16.099+0000",
+      "latest_track_added": "2025-11-24T18:40:16.099+0000",
+      "duration": 203,
+      "number_of_tracks": 1,
+      "popularity": 38,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "ASCEND",
+          "track_id": 461368331,
+          "added": "2025-11-24T18:40:16.099+0000"
+        }
+      ],
+      "rank": 49,
+      "archived": false
+    },
+    {
+      "id": "448003160",
+      "title": "Perfectly",
+      "artist": "FKA twigs",
+      "release_date": "2025-07-09T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/01514c83/0b53/41fe/85df/de4bdbf1ed04/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-07-17T10:59:06.097+0000",
+      "earliest_track_added": "2025-07-17T10:59:06.097+0000",
+      "latest_track_added": "2025-07-17T10:59:06.097+0000",
+      "duration": 231,
+      "number_of_tracks": 1,
+      "popularity": 51,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Perfectly",
+          "track_id": 448003161,
+          "added": "2025-07-17T10:59:06.097+0000"
+        }
+      ],
+      "rank": 50,
+      "archived": false
+    },
+    {
+      "id": "465592251",
+      "title": "I Like Ur Look",
+      "artist": "Kim Petras",
+      "release_date": "2025-10-14T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/2fcc05f2/cf30/4c8b/93e3/f33a13670be8/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-14T22:11:29.069+0000",
+      "earliest_track_added": "2025-10-14T22:11:29.069+0000",
+      "latest_track_added": "2025-10-14T22:11:29.069+0000",
+      "duration": 171,
+      "number_of_tracks": 1,
+      "popularity": 32,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "I Like Ur Look",
+          "track_id": 465592252,
+          "added": "2025-10-14T22:11:29.069+0000"
+        }
+      ],
+      "rank": 51,
+      "archived": false
+    },
+    {
+      "id": "470193357",
+      "title": "AMERICAN GIRL",
+      "artist": "Tiffany Day",
+      "release_date": "2025-09-12T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/1b1c4d82/eab3/4568/b3e0/e91d7ddae99c/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-14T19:03:01.088+0000",
+      "earliest_track_added": "2025-11-14T19:03:01.088+0000",
+      "latest_track_added": "2025-11-14T19:03:01.088+0000",
+      "duration": 321,
+      "number_of_tracks": 2,
+      "popularity": 25,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "PRETTY4U",
+          "track_id": 470193359,
+          "added": "2025-11-14T19:03:01.088+0000"
+        }
+      ],
+      "rank": 52,
+      "archived": false
+    },
+    {
+      "id": "413017301",
+      "title": "Sports car",
+      "artist": "Tate McRae",
+      "release_date": "2025-01-24T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/42e1c5db/b46f/41db/96bc/a32ff0b21efd/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-03-12T10:47:50.867+0000",
+      "earliest_track_added": "2025-03-12T10:47:50.867+0000",
+      "latest_track_added": "2025-03-12T10:47:50.867+0000",
+      "duration": 165,
+      "number_of_tracks": 1,
+      "popularity": 59,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Sports car",
+          "track_id": 413017303,
+          "added": "2025-03-12T10:47:50.867+0000"
+        }
+      ],
+      "rank": 53,
+      "archived": false
+    },
+    {
+      "id": "442347402",
+      "title": "Starlight",
+      "artist": "Danny L Harle",
+      "release_date": "2025-07-08T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/310cfc79/8d10/4efb/b9e7/237f045a53de/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-30T11:42:05.579+0000",
+      "earliest_track_added": "2025-10-30T11:42:05.579+0000",
+      "latest_track_added": "2025-10-30T11:42:05.579+0000",
+      "duration": 220,
+      "number_of_tracks": 1,
+      "popularity": 44,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Starlight",
+          "track_id": 442347403,
+          "added": "2025-10-30T11:42:05.579+0000"
+        }
+      ],
+      "rank": 54,
+      "archived": false
+    },
+    {
+      "id": "441822493",
+      "title": "Is Everybody Having Fun?",
+      "artist": "John Summit",
+      "release_date": "2025-06-20T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/62687f6f/1667/4aa8/a820/419326332900/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-07-31T20:22:20.533+0000",
+      "earliest_track_added": "2025-07-31T20:22:20.533+0000",
+      "latest_track_added": "2025-07-31T20:22:20.533+0000",
+      "duration": 169,
+      "number_of_tracks": 1,
+      "popularity": 43,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Is Everybody Having Fun?",
+          "track_id": 441822495,
+          "added": "2025-07-31T20:22:20.533+0000"
+        }
+      ],
+      "rank": 55,
+      "archived": false
+    },
+    {
+      "id": "446678156",
+      "title": "Heavy",
+      "artist": "Armin van Buuren",
+      "release_date": "2025-07-25T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/87345dc3/53b7/4029/8117/0224a0ae4f0d/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-07T11:46:41.533+0000",
+      "earliest_track_added": "2025-08-07T11:46:41.533+0000",
+      "latest_track_added": "2025-08-07T11:46:41.533+0000",
+      "duration": 171,
+      "number_of_tracks": 1,
+      "popularity": 31,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Heavy",
+          "track_id": 446678157,
+          "added": "2025-08-07T11:46:41.533+0000"
+        }
+      ],
+      "rank": 56,
+      "archived": false
+    },
+    {
+      "id": "425434532",
+      "title": "SATISFY",
+      "artist": "LSDXOXO",
+      "release_date": "2025-05-09T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/bc3b539d/8c9a/4a8a/8754/283ec3f195bc/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-05-12T09:40:27.140+0000",
+      "earliest_track_added": "2025-05-12T09:40:27.140+0000",
+      "latest_track_added": "2025-05-12T09:40:27.140+0000",
+      "duration": 166,
+      "number_of_tracks": 1,
+      "popularity": 32,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "SATISFY",
+          "track_id": 425434533,
+          "added": "2025-05-12T09:40:27.140+0000"
+        }
+      ],
+      "rank": 57,
+      "archived": false
+    },
+    {
+      "id": "458553197",
+      "title": "Blasting Through the Speakers",
+      "artist": "Empress Of",
+      "release_date": "2025-10-02T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/0972c8cf/65ed/45c7/b4c7/50a4c6843598/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-14T19:02:52.852+0000",
+      "earliest_track_added": "2025-11-14T19:02:52.852+0000",
+      "latest_track_added": "2025-11-14T19:02:52.852+0000",
+      "duration": 166,
+      "number_of_tracks": 1,
+      "popularity": 38,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Blasting Through the Speakers",
+          "track_id": 458553199,
+          "added": "2025-11-14T19:02:52.852+0000"
+        }
+      ],
+      "rank": 58,
+      "archived": false
+    },
+    {
+      "id": "438544318",
+      "title": "Fame is a Gun",
+      "artist": "Addison Rae",
+      "release_date": "2025-05-30T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/4e0604d4/ced9/4cf5/a5c9/bdab88f7a42a/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-06-23T11:26:06.987+0000",
+      "earliest_track_added": "2025-06-23T11:26:06.987+0000",
+      "latest_track_added": "2025-06-23T11:26:06.987+0000",
+      "duration": 183,
+      "number_of_tracks": 1,
+      "popularity": 53,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Fame is a Gun",
+          "track_id": 438544319,
+          "added": "2025-06-23T11:26:06.987+0000"
+        }
+      ],
+      "rank": 59,
+      "archived": false
+    },
+    {
+      "id": "445620077",
+      "title": "NEIN SCHATZ",
+      "artist": "Miss Bashful",
+      "release_date": "2025-07-18T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/3f94ba5f/28e2/4e3c/9245/5402f0102900/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-19T11:04:19.464+0000",
+      "earliest_track_added": "2025-11-19T11:04:19.464+0000",
+      "latest_track_added": "2025-11-19T11:04:19.464+0000",
+      "duration": 141,
+      "number_of_tracks": 1,
+      "popularity": 30,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "NEIN SCHATZ",
+          "track_id": 445620080,
+          "added": "2025-11-19T11:04:19.464+0000"
+        }
+      ],
+      "rank": 60,
+      "archived": false
+    },
+    {
+      "id": "465704814",
+      "title": "WALK",
+      "artist": "Rob Apollo",
+      "release_date": "2025-10-24T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/38682f2f/4302/4120/b7e5/b3888248f830/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-25T01:26:12.839+0000",
+      "earliest_track_added": "2025-10-25T01:26:12.839+0000",
+      "latest_track_added": "2025-10-25T01:26:12.839+0000",
+      "duration": 168,
+      "number_of_tracks": 1,
+      "popularity": 32,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "WALK",
+          "track_id": 465704815,
+          "added": "2025-10-25T01:26:12.839+0000"
+        }
+      ],
+      "rank": 61,
+      "archived": false
+    },
+    {
+      "id": "460031855",
+      "title": "You & Me",
+      "artist": "Max Styler",
+      "release_date": "2025-10-17T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/408e6f80/5189/4f3b/a908/b63ec9885a64/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-23T19:05:16.971+0000",
+      "earliest_track_added": "2025-10-23T19:05:16.971+0000",
+      "latest_track_added": "2025-10-23T19:05:16.971+0000",
+      "duration": 214,
+      "number_of_tracks": 1,
+      "popularity": 32,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "You & Me",
+          "track_id": 460031856,
+          "added": "2025-10-23T19:05:16.971+0000"
+        }
+      ],
+      "rank": 62,
+      "archived": false
+    },
+    {
+      "id": "421898126",
+      "title": "Anxiety",
+      "artist": "Doechii",
+      "release_date": "2025-03-05T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/f2686a85/64a0/4d80/a7c6/8245b459df04/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-03-11T21:58:00.850+0000",
+      "earliest_track_added": "2025-03-11T21:58:00.850+0000",
+      "latest_track_added": "2025-03-11T21:58:00.850+0000",
+      "duration": 409,
+      "number_of_tracks": 2,
+      "popularity": 69,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "DENIAL IS A RIVER",
+          "track_id": 421898129,
+          "added": "2025-03-11T21:58:00.850+0000"
+        }
+      ],
+      "rank": 63,
+      "archived": false
+    },
+    {
+      "id": "422555561",
+      "title": "DGTL ANML",
+      "artist": "LSDXOXO",
+      "release_date": "2025-06-13T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/646a7a2a/77e0/401d/8827/5dcea09aecdb/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-06-20T13:55:31.684+0000",
+      "earliest_track_added": "2025-06-20T13:55:31.684+0000",
+      "latest_track_added": "2025-06-20T13:55:31.684+0000",
+      "duration": 1531,
+      "number_of_tracks": 8,
+      "popularity": 51,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "PAPARAZZI",
+          "track_id": 422555568,
+          "added": "2025-06-20T13:55:31.684+0000"
+        }
+      ],
+      "rank": 64,
+      "archived": false
+    },
+    {
+      "id": "405505934",
+      "title": "Hot Hits",
+      "artist": "RoRo",
+      "release_date": "2025-01-03T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/0a658ef3/7d3b/46e2/af77/3a9001baafeb/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-10-08T10:46:37.366+0000",
+      "earliest_track_added": "2025-10-08T10:46:37.366+0000",
+      "latest_track_added": "2025-10-08T10:46:37.366+0000",
+      "duration": 1140,
+      "number_of_tracks": 7,
+      "popularity": 28,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Dolce&",
+          "track_id": 405505936,
+          "added": "2025-10-08T10:46:37.366+0000"
+        }
+      ],
+      "rank": 65,
+      "archived": false
+    },
+    {
+      "id": "425414590",
+      "title": "Live at Seven Wonders, Pillars of Creation (Highlights)",
+      "artist": "Arctic Moon",
+      "release_date": "2025-03-23T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/7dcd5579/8c21/434b/8497/d3b4624c6e7b/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-04-03T15:47:16.456+0000",
+      "earliest_track_added": "2025-04-03T15:47:16.456+0000",
+      "latest_track_added": "2025-04-03T15:47:16.456+0000",
+      "duration": 2876,
+      "number_of_tracks": 18,
+      "popularity": 41,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Raven (Mixed)",
+          "track_id": 425414604,
+          "added": "2025-04-03T15:47:16.456+0000"
+        }
+      ],
+      "rank": 66,
+      "archived": false
+    },
+    {
+      "id": "456915409",
+      "title": "Skepta .. Fred",
+      "artist": "Skepta",
+      "release_date": "2025-08-29T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/62d8903a/92a3/4eb3/8554/10624dc03800/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 1,
+      "added_to_library": "2025-09-08T20:03:30.137+0000",
+      "earliest_track_added": "2025-09-08T20:03:30.137+0000",
+      "latest_track_added": "2025-09-08T20:03:30.137+0000",
+      "duration": 971,
+      "number_of_tracks": 5,
+      "popularity": 53,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "London",
+          "track_id": 456915411,
+          "added": "2025-09-08T20:03:30.137+0000"
+        }
+      ],
+      "rank": 67,
+      "archived": true
+    },
+    {
+      "id": "433340948",
+      "title": "Vanity",
+      "artist": "Isabella Lovestory",
+      "release_date": "2025-06-27T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/938f2842/f1f7/4a53/8e99/ed38a9b1361d/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-08-18T12:22:03.018+0000",
+      "earliest_track_added": "2025-08-18T12:22:03.018+0000",
+      "latest_track_added": "2025-08-18T12:22:03.018+0000",
+      "duration": 2154,
+      "number_of_tracks": 13,
+      "popularity": 41,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Putita Boutique (feat. TAICHU)",
+          "track_id": 433340956,
+          "added": "2025-08-18T12:22:03.018+0000"
+        }
+      ],
+      "rank": 68,
+      "archived": true
+    },
+    {
+      "id": "452463071",
+      "title": "God Does Like Ugly",
+      "artist": "JID",
+      "release_date": "2025-08-08T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/5b76534b/c1c4/457f/9799/abe1a0ba0d82/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-08-15T19:01:16.711+0000",
+      "earliest_track_added": "2025-08-15T19:01:16.711+0000",
+      "latest_track_added": "2025-08-15T19:01:16.711+0000",
+      "duration": 3449,
+      "number_of_tracks": 15,
+      "popularity": 77,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "What We On",
+          "track_id": 452463079,
+          "added": "2025-08-15T19:01:16.711+0000"
+        }
+      ],
+      "rank": 69,
+      "archived": true
+    },
+    {
+      "id": "455404040",
+      "title": "GALA",
+      "artist": "XG",
+      "release_date": "2025-09-19T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/a8130bd8/232d/4be5/95c3/e42149ef38d2/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-12-01T13:11:56.976+0000",
+      "earliest_track_added": "2025-12-01T13:11:56.976+0000",
+      "latest_track_added": "2025-12-01T13:11:56.976+0000",
+      "duration": 454,
+      "number_of_tracks": 2,
+      "popularity": 45,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "GALA",
+          "track_id": 455404041,
+          "added": "2025-12-01T13:11:56.976+0000"
+        }
+      ],
+      "rank": 70,
+      "archived": true
+    },
+    {
+      "id": "434874916",
+      "title": "Bad Boys (MCR-T Remix)",
+      "artist": "Jax Jones",
+      "release_date": "2025-03-28T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/9b702bd5/9db3/475b/90fd/ffe39a0c2ad4/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-05-20T18:10:38.291+0000",
+      "earliest_track_added": "2025-05-20T18:10:38.291+0000",
+      "latest_track_added": "2025-05-20T18:10:38.291+0000",
+      "duration": 206,
+      "number_of_tracks": 1,
+      "popularity": 25,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Bad Boys",
+          "track_id": 434874917,
+          "added": "2025-05-20T18:10:38.291+0000"
+        }
+      ],
+      "rank": 71,
+      "archived": true
+    },
+    {
+      "id": "411574893",
+      "title": "Clair Obscur: Expedition 33 (Original Soundtrack) Gustave Edition",
+      "artist": "Lorien Testard",
+      "release_date": "2025-01-24T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/9cb4159f/2157/4470/9d6b/dcd17c87a13a/1280x1280.jpg",
+      "type": "EP",
+      "track_count": 1,
+      "added_to_library": "2025-08-02T15:51:15.780+0000",
+      "earliest_track_added": "2025-08-02T15:51:15.780+0000",
+      "latest_track_added": "2025-08-02T15:51:15.780+0000",
+      "duration": 727,
+      "number_of_tracks": 4,
+      "popularity": 45,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "In Lumiere's Name",
+          "track_id": 411574895,
+          "added": "2025-08-02T15:51:15.780+0000"
+        }
+      ],
+      "rank": 72,
+      "archived": true
+    },
+    {
+      "id": "439599724",
+      "title": "Lotus",
+      "artist": "Little Simz",
+      "release_date": "2025-06-06T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/f2d900fc/d5f2/439c/85d1/40f8e9add5fa/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-06-26T15:05:59.044+0000",
+      "earliest_track_added": "2025-06-26T15:05:59.044+0000",
+      "latest_track_added": "2025-06-26T15:05:59.044+0000",
+      "duration": 2997,
+      "number_of_tracks": 13,
+      "popularity": 67,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Lotus",
+          "track_id": 439599743,
+          "added": "2025-06-26T15:05:59.044+0000"
+        }
+      ],
+      "rank": 73,
+      "archived": true
+    },
+    {
+      "id": "414096079",
+      "title": "Bittersüß",
+      "artist": "Abor & Tynna",
+      "release_date": "2025-02-14T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/3cbfdb19/c7d5/4a64/a92a/255113dbd819/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-06-03T12:11:44.136+0000",
+      "earliest_track_added": "2025-06-03T12:11:44.136+0000",
+      "latest_track_added": "2025-06-03T12:11:44.136+0000",
+      "duration": 2606,
+      "number_of_tracks": 16,
+      "popularity": 39,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Baller",
+          "track_id": 414096092,
+          "added": "2025-06-03T12:11:44.136+0000"
+        }
+      ],
+      "rank": 74,
+      "archived": true
+    },
+    {
+      "id": "432431799",
+      "title": "Acid Dolphin Essential Tech House",
+      "artist": "Various Artists",
+      "release_date": "2025-05-16T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/6559d38b/486c/488b/b98a/c3f8ff7a8047/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2024-08-20T11:20:28.210+0000",
+      "earliest_track_added": "2024-08-20T11:20:28.210+0000",
+      "latest_track_added": "2024-08-20T11:20:28.210+0000",
+      "duration": 5740,
+      "number_of_tracks": 20,
+      "popularity": 4,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Feel the Love (Extended Mix)",
+          "track_id": 432431815,
+          "added": "2024-08-20T11:20:28.210+0000"
+        }
+      ],
+      "rank": 75,
+      "archived": true
+    },
+    {
+      "id": "441779029",
+      "title": "fuck ice",
+      "artist": "Chrissa Sparkles",
+      "release_date": "2025-06-12T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/184abbc0/d822/4431/8c29/808972db88c0/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-23T14:16:49.911+0000",
+      "earliest_track_added": "2025-11-23T14:16:49.911+0000",
+      "latest_track_added": "2025-11-23T14:16:49.911+0000",
+      "duration": 96,
+      "number_of_tracks": 1,
+      "popularity": 38,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "fuck ice",
+          "track_id": 441779030,
+          "added": "2025-11-23T14:16:49.911+0000"
+        }
+      ],
+      "rank": 76,
+      "archived": true
+    },
+    {
+      "id": "441592680",
+      "title": "dollaz n dollaz",
+      "artist": "Jigitz",
+      "release_date": "2025-06-27T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/0674317c/1510/43ab/8215/2f81fdabd047/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-17T17:17:29.503+0000",
+      "earliest_track_added": "2025-08-17T17:17:29.503+0000",
+      "latest_track_added": "2025-08-17T17:17:29.503+0000",
+      "duration": 145,
+      "number_of_tracks": 1,
+      "popularity": 36,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "dollaz n dollaz",
+          "track_id": 441592681,
+          "added": "2025-08-17T17:17:29.503+0000"
+        }
+      ],
+      "rank": 77,
+      "archived": true
+    },
+    {
+      "id": "411214818",
+      "title": "Tweaker",
+      "artist": "GELO",
+      "release_date": "2025-01-03T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/1599326d/6293/429a/9012/46c8666c0356/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-05-21T10:21:31.289+0000",
+      "earliest_track_added": "2025-05-21T10:21:31.289+0000",
+      "latest_track_added": "2025-05-21T10:21:31.289+0000",
+      "duration": 190,
+      "number_of_tracks": 1,
+      "popularity": 66,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Tweaker",
+          "track_id": 411214819,
+          "added": "2025-05-21T10:21:31.289+0000"
+        }
+      ],
+      "rank": 78,
+      "archived": true
+    },
+    {
+      "id": "417756162",
+      "title": "This Is Real",
+      "artist": "feeble little horse",
+      "release_date": "2025-03-11T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/65d8b40f/1e41/460c/af58/90d30c2f801c/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-01T10:35:53.834+0000",
+      "earliest_track_added": "2025-10-01T10:35:53.834+0000",
+      "latest_track_added": "2025-10-01T10:35:53.834+0000",
+      "duration": 187,
+      "number_of_tracks": 1,
+      "popularity": 48,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "This Is Real",
+          "track_id": 417756163,
+          "added": "2025-10-01T10:35:53.834+0000"
+        }
+      ],
+      "rank": 79,
+      "archived": true
+    },
+    {
+      "id": "433966155",
+      "title": "SORRY RACH!",
+      "artist": "Stormzy",
+      "release_date": "2025-05-07T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/d711ebdb/55db/4fae/8cdc/6175d650a8e6/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-05-12T09:49:48.351+0000",
+      "earliest_track_added": "2025-05-12T09:49:48.351+0000",
+      "latest_track_added": "2025-05-12T09:49:48.351+0000",
+      "duration": 235,
+      "number_of_tracks": 1,
+      "popularity": 33,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "SORRY RACH!",
+          "track_id": 433966157,
+          "added": "2025-05-12T09:49:48.351+0000"
+        }
+      ],
+      "rank": 80,
+      "archived": true
+    },
+    {
+      "id": "424981618",
+      "title": "Tonight",
+      "artist": "PinkPantheress",
+      "release_date": "2025-04-04T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/f4ecafbb/a0ff/4df6/8c32/4b99fa7e1231/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-04-30T15:22:44.068+0000",
+      "earliest_track_added": "2025-04-30T15:22:44.068+0000",
+      "latest_track_added": "2025-04-30T15:22:44.068+0000",
+      "duration": 175,
+      "number_of_tracks": 1,
+      "popularity": 58,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Tonight",
+          "track_id": 424981619,
+          "added": "2025-04-30T15:22:44.068+0000"
+        }
+      ],
+      "rank": 81,
+      "archived": true
+    },
+    {
+      "id": "439180347",
+      "title": "Neighborhood Gods Unlimited",
+      "artist": "Open Mike Eagle",
+      "release_date": "2025-07-11T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/724052b7/07a5/4d2f/88b7/15e920b369e6/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-07-28T09:10:53.210+0000",
+      "earliest_track_added": "2025-07-28T09:10:53.210+0000",
+      "latest_track_added": "2025-07-28T09:10:53.210+0000",
+      "duration": 2289,
+      "number_of_tracks": 14,
+      "popularity": 55,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "woke up knowing everything (opening theme)",
+          "track_id": 439180355,
+          "added": "2025-07-28T09:10:53.210+0000"
+        }
+      ],
+      "rank": 82,
+      "archived": true
+    },
+    {
+      "id": "428817523",
+      "title": "Clair Obscur: Expedition 33 (Original Soundtrack)",
+      "artist": "Lorien Testard",
+      "release_date": "2025-04-24T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/7bbcff67/29c5/4521/88c5/e95f84176ffd/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-05-12T17:48:54.458+0000",
+      "earliest_track_added": "2025-05-12T17:48:54.458+0000",
+      "latest_track_added": "2025-05-12T17:48:54.458+0000",
+      "duration": 29373,
+      "number_of_tracks": 154,
+      "popularity": 60,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "Flying Waters - Rain from the Ground",
+          "track_id": 428817554,
+          "added": "2025-05-12T17:48:54.458+0000"
+        }
+      ],
+      "rank": 83,
+      "archived": true
+    },
+    {
+      "id": "464020609",
+      "title": "oh my God",
+      "artist": "REYSHA RAMI",
+      "release_date": "2025-11-07T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/e0d30333/b3ce/4423/aa3c/831c8117535c/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-11-14T20:19:24.229+0000",
+      "earliest_track_added": "2025-11-14T20:19:24.229+0000",
+      "latest_track_added": "2025-11-14T20:19:24.229+0000",
+      "duration": 135,
+      "number_of_tracks": 1,
+      "popularity": 35,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "oh my God",
+          "track_id": 464020610,
+          "added": "2025-11-14T20:19:24.229+0000"
+        }
+      ],
+      "rank": 84,
+      "archived": true
+    },
+    {
+      "id": "423238766",
+      "title": "Crooked Wing",
+      "artist": "These New Puritans",
+      "release_date": "2025-05-23T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/60c6557e/f7ad/4baf/9eba/7673fb7fe32a/1280x1280.jpg",
+      "type": "ALBUM",
+      "track_count": 1,
+      "added_to_library": "2025-11-14T19:35:38.908+0000",
+      "earliest_track_added": "2025-11-14T19:35:38.908+0000",
+      "latest_track_added": "2025-11-14T19:35:38.908+0000",
+      "duration": 2843,
+      "number_of_tracks": 10,
+      "popularity": 48,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "A Season In Hell",
+          "track_id": 423238769,
+          "added": "2025-11-14T19:35:38.908+0000"
+        }
+      ],
+      "rank": 85,
+      "archived": true
+    },
+    {
+      "id": "457950544",
+      "title": "Azimuth",
+      "artist": "Danny L Harle",
+      "release_date": "2025-10-02T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/c3af3433/64c2/412b/8a3d/0fd8fa8c3943/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-03T23:04:08.526+0000",
+      "earliest_track_added": "2025-10-03T23:04:08.526+0000",
+      "latest_track_added": "2025-10-03T23:04:08.526+0000",
+      "duration": 227,
+      "number_of_tracks": 1,
+      "popularity": 44,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Azimuth",
+          "track_id": 457950546,
+          "added": "2025-10-03T23:04:08.526+0000"
+        }
+      ],
+      "rank": 86,
+      "archived": true
+    },
+    {
+      "id": "425251979",
+      "title": "STFU (feat. Sophie Powers)",
+      "artist": "Pixl Girl",
+      "release_date": "2025-03-21T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/f46d48bd/3571/43ae/b2e9/1428122f7d66/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-12-05T01:23:39.180+0000",
+      "earliest_track_added": "2025-12-05T01:23:39.180+0000",
+      "latest_track_added": "2025-12-05T01:23:39.180+0000",
+      "duration": 116,
+      "number_of_tracks": 1,
+      "popularity": 28,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "STFU (feat. Sophie Powers)",
+          "track_id": 425251981,
+          "added": "2025-12-05T01:23:39.180+0000"
+        }
+      ],
+      "rank": 87,
+      "archived": true
+    },
+    {
+      "id": "420865991",
+      "title": "Run It Up",
+      "artist": "HanuMankind",
+      "release_date": "2025-03-06T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/9fb84cab/7d0d/4d31/ac1a/ac0e765ac254/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-06-09T10:58:16.469+0000",
+      "earliest_track_added": "2025-06-09T10:58:16.469+0000",
+      "latest_track_added": "2025-06-09T10:58:16.469+0000",
+      "duration": 174,
+      "number_of_tracks": 1,
+      "popularity": 46,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Run It Up",
+          "track_id": 420865992,
+          "added": "2025-06-09T10:58:16.469+0000"
+        }
+      ],
+      "rank": 88,
+      "archived": true
+    },
+    {
+      "id": "463151051",
+      "title": "you're a star",
+      "artist": "Fred again..",
+      "release_date": "2025-10-03T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/2b13b4a2/4412/43f5/a45e/847502d2b6f6/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-10-03T12:50:09.742+0000",
+      "earliest_track_added": "2025-10-03T12:50:09.742+0000",
+      "latest_track_added": "2025-10-03T12:50:09.742+0000",
+      "duration": 219,
+      "number_of_tracks": 1,
+      "popularity": 51,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "you're a star",
+          "track_id": 463151055,
+          "added": "2025-10-03T12:50:09.742+0000"
+        }
+      ],
+      "rank": 89,
+      "archived": true
+    },
+    {
+      "id": "416501737",
+      "title": "Shake It To The Max (FLY) [Remix]",
+      "artist": "Moliy",
+      "release_date": "2025-02-21T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/98b72bb2/9173/44bd/964f/5064100c4ba5/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-07-07T21:48:56.122+0000",
+      "earliest_track_added": "2025-07-07T21:48:56.122+0000",
+      "latest_track_added": "2025-07-07T21:48:56.122+0000",
+      "duration": 179,
+      "number_of_tracks": 1,
+      "popularity": 62,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "Shake It To The Max (FLY) [Remix]",
+          "track_id": 416501738,
+          "added": "2025-07-07T21:48:56.122+0000"
+        }
+      ],
+      "rank": 90,
+      "archived": true
+    },
+    {
+      "id": "430770162",
+      "title": "PAY!",
+      "artist": "Theodora",
+      "release_date": "2025-04-25T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/9e176c2c/e304/4834/8576/792f806d662d/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-08-06T11:49:36.176+0000",
+      "earliest_track_added": "2025-08-06T11:49:36.176+0000",
+      "latest_track_added": "2025-08-06T11:49:36.176+0000",
+      "duration": 131,
+      "number_of_tracks": 1,
+      "popularity": 21,
+      "explicit": true,
+      "favorited_tracks": [
+        {
+          "title": "PAY!",
+          "track_id": 430770163,
+          "added": "2025-08-06T11:49:36.176+0000"
+        }
+      ],
+      "rank": 91,
+      "archived": true
+    },
+    {
+      "id": "465592247",
+      "title": "I Like Ur Look",
+      "artist": "Kim Petras",
+      "release_date": "2025-10-14T00:00:00",
+      "release_year": 2025,
+      "cover_url": "https://resources.tidal.com/images/8d944277/8ab4/40c7/aa89/62c32a816b88/1280x1280.jpg",
+      "type": "SINGLE",
+      "track_count": 1,
+      "added_to_library": "2025-12-01T12:53:39.011+0000",
+      "earliest_track_added": "2025-12-01T12:53:39.011+0000",
+      "latest_track_added": "2025-12-01T12:53:39.011+0000",
+      "duration": 171,
+      "number_of_tracks": 1,
+      "popularity": 52,
+      "explicit": false,
+      "favorited_tracks": [
+        {
+          "title": "I Like Ur Look",
+          "track_id": 465592250,
+          "added": "2025-12-01T12:53:39.011+0000"
+        }
+      ],
+      "rank": 92,
+      "archived": true
+    }
+  ]
+}
