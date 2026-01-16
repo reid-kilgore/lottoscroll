@@ -101,32 +101,21 @@ async function main() {
     console.log(`Loaded ${evergreenVideos.length} evergreen videos`)
   }
 
-  // Target: ~40 cards
-  // Ratio: 45% articles, 40% tidal music videos, 15% nebula
-  const TARGET_TOTAL = 40
-  const articleCount = Math.round(TARGET_TOTAL * 0.45)
-  const tidalVideoCount = Math.round(TARGET_TOTAL * 0.40)
-  const nebulaCount = Math.round(TARGET_TOTAL * 0.15)
-
-  console.log(`\nSampling: ${articleCount} articles, ${tidalVideoCount} tidal videos, ${nebulaCount} nebula`)
-
-  // Sample from each pool
-  const sampledArticles = sample(articles, articleCount, random)
-  const sampledTidalVideos = sample(tidalVideos, tidalVideoCount, random)
-  const sampledNebula = sample(nebulaVideos, nebulaCount, random)
-
-  console.log(`Got: ${sampledArticles.length} articles, ${sampledTidalVideos.length} tidal videos, ${sampledNebula.length} nebula`)
-
-  // Combine all content (client-side will shuffle on page load)
+  // Include ALL content - client will sample at runtime for variety
   const final = [
-    ...sampledArticles,
-    ...sampledTidalVideos,
-    ...sampledNebula,
+    ...articles,
+    ...tidalVideos,
+    ...nebulaVideos,
     ...games,
     ...evergreenVideos
   ]
 
-  console.log(`\nTotal activities: ${final.length} (including ${games.length} games, ${evergreenVideos.length} evergreen videos)`)
+  console.log(`\nTotal pool: ${final.length} items`)
+  console.log(`  - ${articles.length} articles`)
+  console.log(`  - ${tidalVideos.length} tidal videos`)
+  console.log(`  - ${nebulaVideos.length} nebula videos`)
+  console.log(`  - ${games.length} games`)
+  console.log(`  - ${evergreenVideos.length} evergreen videos`)
 
   // Write output
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(final, null, 2))

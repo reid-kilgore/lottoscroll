@@ -21,6 +21,20 @@ function shuffle<T>(array: T[], random: () => number): T[] {
   return result
 }
 
+// Sample n items from array
+function sample<T>(array: T[], n: number, random: () => number): T[] {
+  const shuffled = shuffle(array, random)
+  return shuffled.slice(0, Math.min(n, array.length))
+}
+
+// Content mix targets
+const TARGET_TOTAL = 40
+const MIX = {
+  article: 0.45,      // ~18 articles
+  'tidal-video': 0.40, // ~16 tidal videos
+  video: 0.15,        // ~6 nebula videos
+}
+
 export function useActivities() {
   const [activities, setActivities] = useState<Activity[]>([])
   const [isLoading, setIsLoading] = useState(true)
@@ -38,7 +52,46 @@ export function useActivities() {
         // Seed based on current timestamp - different every page load
         const seed = Date.now()
         const random = seededRandom(seed)
-        const shuffled = shuffle(data, random)
+
+        // Group by type
+        const byType: Record<string, Activity[]> = {}
+        for (const item of data) {
+          const type = item.type
+          if (!byType[type]) byType[type] = []
+          byType[type].push(item)
+        }
+
+        // Sample from each category based on mix ratios
+        const sampled: Activity[] = []
+
+        // Sample articles
+        if (byType['article']) {
+          const count = Math.round(TARGET_TOTAL * MIX.article)
+          sampled.push(...sample(byType['article'], count, random))
+        }
+
+        // Sample tidal videos
+        if (byType['tidal-video']) {
+          const count = Math.round(TARGET_TOTAL * MIX['tidal-video'])
+          sampled.push(...sample(byType['tidal-video'], count, random))
+        }
+
+        // Sample nebula videos
+        if (byType['video']) {
+          const count = Math.round(TARGET_TOTAL * MIX.video)
+          sampled.push(...sample(byType['video'], count, random))
+        }
+
+        // Always include all games, app-links, and tidal tracks
+        const alwaysInclude = ['game', 'app-link', 'tidal']
+        for (const type of alwaysInclude) {
+          if (byType[type]) {
+            sampled.push(...byType[type])
+          }
+        }
+
+        // Final shuffle
+        const shuffled = shuffle(sampled, random)
 
         setActivities(shuffled)
       } catch (err) {
