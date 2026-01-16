@@ -1,5 +1,5 @@
 import { memo, useState } from 'react'
-import { BookOpen, Newspaper } from 'lucide-react'
+import { Newspaper } from 'lucide-react'
 import type { ArticleActivity } from '../../types/activity'
 
 interface ArticleCardProps {
@@ -13,6 +13,9 @@ const SOURCE_CONFIG: Record<string, { gradient: string; accent: string }> = {
   '404 Media': { gradient: 'from-purple-900', accent: 'bg-purple-400' },
   'Aftermath': { gradient: 'from-red-900', accent: 'bg-red-400' },
   'Hell Gate': { gradient: 'from-orange-900', accent: 'bg-orange-400' },
+  'Simon Willison': { gradient: 'from-sky-900', accent: 'bg-sky-400' },
+  'Hacker News': { gradient: 'from-orange-900', accent: 'bg-orange-400' },
+  'Lobsters': { gradient: 'from-red-900', accent: 'bg-red-400' },
 }
 
 const DEFAULT_CONFIG = { gradient: 'from-zinc-800', accent: 'bg-zinc-400' }
@@ -27,9 +30,12 @@ function ArticleCardComponent({ activity }: ArticleCardProps) {
   }
 
   return (
-    <div className={`relative w-full h-full flex items-center justify-center bg-gradient-to-b ${config.gradient} via-zinc-900 to-black`}>
+    <div
+      onClick={handleOpen}
+      className={`relative w-full h-full flex items-center justify-center bg-gradient-to-b ${config.gradient} via-zinc-900 to-black cursor-pointer active:opacity-90`}
+    >
       {showImage && (
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 pointer-events-none">
           <img
             src={activity.imageUrl}
             alt=""
@@ -40,8 +46,7 @@ function ArticleCardComponent({ activity }: ArticleCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center">
-        {/* Visual element - either image or icon */}
+      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center pointer-events-none">
         {showImage ? (
           <div className="rounded-xl overflow-hidden shadow-2xl aspect-[4/3] max-w-[280px]">
             <img
@@ -59,21 +64,13 @@ function ArticleCardComponent({ activity }: ArticleCardProps) {
 
         <div className="space-y-2 text-center">
           <p className="text-sm text-white/60 font-medium">{activity.source}</p>
-          <h2 className="text-3xl font-bold text-white leading-tight">
+          <h2 className="text-2xl font-bold text-white leading-tight">
             {activity.title}
           </h2>
           {activity.description && (
-            <p className="text-lg text-white/60">{activity.description}</p>
+            <p className="text-base text-white/60 line-clamp-3">{activity.description}</p>
           )}
         </div>
-
-        <button
-          onClick={handleOpen}
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black font-semibold text-lg transition-all hover:scale-105 active:scale-95"
-        >
-          <BookOpen size={22} />
-          Read
-        </button>
       </div>
     </div>
   )

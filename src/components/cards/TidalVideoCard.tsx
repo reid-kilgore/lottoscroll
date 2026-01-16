@@ -1,5 +1,5 @@
 import { memo, useState } from 'react'
-import { Play, Film } from 'lucide-react'
+import { Film } from 'lucide-react'
 import type { TidalVideoActivity } from '../../types/activity'
 
 interface TidalVideoCardProps {
@@ -21,9 +21,12 @@ function TidalVideoCardComponent({ activity }: TidalVideoCardProps) {
   }
 
   return (
-    <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-rose-900 via-zinc-900 to-black">
+    <div
+      onClick={handleOpen}
+      className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-rose-900 via-zinc-900 to-black cursor-pointer active:opacity-90"
+    >
       {showImage && (
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 pointer-events-none">
           <img
             src={activity.imageUrl}
             alt=""
@@ -34,7 +37,7 @@ function TidalVideoCardComponent({ activity }: TidalVideoCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center">
+      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center pointer-events-none">
         {showImage ? (
           <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video max-w-[300px]">
             <img
@@ -60,18 +63,10 @@ function TidalVideoCardComponent({ activity }: TidalVideoCardProps) {
             {activity.artist}
             {activity.explicit && <span className="ml-2 text-xs bg-white/20 px-1.5 py-0.5 rounded">E</span>}
           </p>
-          <h2 className="text-3xl font-bold text-white leading-tight">
+          <h2 className="text-2xl font-bold text-white leading-tight">
             {activity.title}
           </h2>
         </div>
-
-        <button
-          onClick={handleOpen}
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-rose-400 text-black font-semibold text-lg transition-all hover:scale-105 active:scale-95"
-        >
-          <Play size={22} />
-          Watch on Tidal
-        </button>
       </div>
     </div>
   )

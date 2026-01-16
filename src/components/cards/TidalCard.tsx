@@ -1,5 +1,5 @@
 import { memo, useState } from 'react'
-import { Music, Disc3 } from 'lucide-react'
+import { Disc3 } from 'lucide-react'
 import type { TidalActivity } from '../../types/activity'
 
 interface TidalCardProps {
@@ -15,9 +15,12 @@ function TidalCardComponent({ activity }: TidalCardProps) {
   }
 
   return (
-    <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-cyan-900 via-zinc-900 to-black">
+    <div
+      onClick={handleOpen}
+      className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-cyan-900 via-zinc-900 to-black cursor-pointer active:opacity-90"
+    >
       {showAlbumArt && (
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 pointer-events-none">
           <img
             src={activity.albumArt}
             alt=""
@@ -28,7 +31,7 @@ function TidalCardComponent({ activity }: TidalCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 text-center px-8 space-y-6">
+      <div className="relative z-10 text-center px-8 space-y-4 pointer-events-none">
         {showAlbumArt ? (
           <img
             src={activity.albumArt}
@@ -43,22 +46,9 @@ function TidalCardComponent({ activity }: TidalCardProps) {
         )}
 
         <div>
-          <h2 className="text-3xl font-bold text-white">{activity.title}</h2>
-          {activity.artist && (
-            <p className="text-xl text-white/70 mt-2">{activity.artist}</p>
-          )}
-          {activity.description && (
-            <p className="text-base text-white/50 mt-1">{activity.description}</p>
-          )}
+          <p className="text-sm text-white/60 font-medium">{activity.artist}</p>
+          <h2 className="text-2xl font-bold text-white mt-1">{activity.title}</h2>
         </div>
-
-        <button
-          onClick={handleOpen}
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-cyan-400 text-black font-semibold text-lg transition-all hover:scale-105 active:scale-95"
-        >
-          <Music size={22} />
-          Listen on Tidal
-        </button>
       </div>
     </div>
   )

@@ -36,8 +36,11 @@ function AppLinkCardComponent({ activity }: AppLinkCardProps) {
   }
 
   return (
-    <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-violet-900 via-zinc-900 to-black">
-      <div className="relative z-10 max-w-sm px-6 text-center space-y-5">
+    <div
+      onClick={handleOpen}
+      className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-violet-900 via-zinc-900 to-black cursor-pointer active:opacity-90"
+    >
+      <div className="relative z-10 max-w-sm px-6 text-center space-y-5 pointer-events-none">
         <div className="w-20 h-20 mx-auto rounded-2xl bg-violet-400 flex items-center justify-center">
           <Smartphone size={40} className="text-black/70" />
         </div>
@@ -51,14 +54,6 @@ function AppLinkCardComponent({ activity }: AppLinkCardProps) {
             <p className="text-lg text-white/60">{activity.description}</p>
           )}
         </div>
-
-        <button
-          onClick={handleOpen}
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-violet-400 text-black font-semibold text-lg transition-all hover:scale-105 active:scale-95"
-        >
-          <Smartphone size={22} />
-          Open {activity.appName}
-        </button>
       </div>
     </div>
   )

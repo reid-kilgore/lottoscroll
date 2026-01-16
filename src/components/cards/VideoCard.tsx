@@ -1,5 +1,5 @@
 import { memo, useState } from 'react'
-import { Play, Film } from 'lucide-react'
+import { Film } from 'lucide-react'
 import type { VideoActivity } from '../../types/activity'
 
 interface VideoCardProps {
@@ -16,13 +16,14 @@ function VideoCardComponent({ activity }: VideoCardProps) {
 
   const isNebula = activity.platform === 'nebula'
   const gradientFrom = isNebula ? 'from-indigo-900' : 'from-red-900'
-  const buttonColor = isNebula ? 'bg-indigo-400' : 'bg-red-500'
-  const platformLabel = isNebula ? 'Watch on Nebula' : 'Watch on YouTube'
 
   return (
-    <div className={`relative w-full h-full flex items-center justify-center bg-gradient-to-b ${gradientFrom} via-zinc-900 to-black`}>
+    <div
+      onClick={handleOpen}
+      className={`relative w-full h-full flex items-center justify-center bg-gradient-to-b ${gradientFrom} via-zinc-900 to-black cursor-pointer active:opacity-90`}
+    >
       {showImage && (
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 pointer-events-none">
           <img
             src={activity.imageUrl}
             alt=""
@@ -33,7 +34,7 @@ function VideoCardComponent({ activity }: VideoCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 max-w-sm px-6 text-center space-y-5">
+      <div className="relative z-10 max-w-sm px-6 text-center space-y-5 pointer-events-none">
         {showImage ? (
           <div className="mx-auto rounded-xl overflow-hidden shadow-2xl aspect-video max-w-xs">
             <img
@@ -55,17 +56,9 @@ function VideoCardComponent({ activity }: VideoCardProps) {
             {activity.title}
           </h2>
           {activity.description && (
-            <p className="text-base text-white/60">{activity.description}</p>
+            <p className="text-base text-white/60 line-clamp-2">{activity.description}</p>
           )}
         </div>
-
-        <button
-          onClick={handleOpen}
-          className={`inline-flex items-center gap-3 px-8 py-4 rounded-full ${buttonColor} text-white font-semibold text-lg transition-all hover:scale-105 active:scale-95`}
-        >
-          <Play size={22} fill="white" />
-          {platformLabel}
-        </button>
       </div>
     </div>
   )

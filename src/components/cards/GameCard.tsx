@@ -12,8 +12,11 @@ function GameCardComponent({ activity }: GameCardProps) {
   }
 
   return (
-    <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-indigo-900 via-zinc-900 to-black">
-      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center">
+    <div
+      onClick={handleOpen}
+      className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-indigo-900 via-zinc-900 to-black cursor-pointer active:opacity-90"
+    >
+      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center pointer-events-none">
         <div className="w-24 h-24 rounded-2xl bg-indigo-400 flex items-center justify-center">
           <Gamepad2 size={48} className="text-black/70" />
         </div>
@@ -27,14 +30,6 @@ function GameCardComponent({ activity }: GameCardProps) {
             <p className="text-lg text-white/60">{activity.description}</p>
           )}
         </div>
-
-        <button
-          onClick={handleOpen}
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-indigo-400 text-black font-semibold text-lg transition-all hover:scale-105 active:scale-95"
-        >
-          <Gamepad2 size={22} />
-          Play
-        </button>
       </div>
     </div>
   )
