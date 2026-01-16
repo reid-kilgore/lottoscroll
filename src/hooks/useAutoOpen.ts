@@ -33,6 +33,13 @@ export function useAutoOpen({
     reset()
   }, [resetKey, reset])
 
+  // Reset when paused (scroll starts)
+  useEffect(() => {
+    if (isPaused) {
+      reset()
+    }
+  }, [isPaused, reset])
+
   // Countdown timer
   useEffect(() => {
     if (isPaused || hasOpenedRef.current) {
