@@ -73,10 +73,10 @@ function PostOpenOverlayComponent({
         </div>
 
         {/* Continue button */}
-        <div className="p-5 pt-0">
+        <div className="p-5 pt-2">
           <button
             onClick={onDismiss}
-            className="w-full py-4 bg-white hover:bg-zinc-100 text-black font-semibold text-base rounded-xl transition-all active:scale-[0.98]"
+            className="w-full py-5 bg-white hover:bg-zinc-100 text-black font-bold text-xl rounded-2xl transition-all active:scale-[0.98]"
           >
             Continue browsing
           </button>
