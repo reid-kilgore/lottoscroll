@@ -3,9 +3,10 @@ import type { AppLinkActivity } from '../../types/activity'
 
 interface AppLinkCardProps {
   activity: AppLinkActivity
+  onOpen?: () => void
 }
 
-function AppLinkCardComponent({ activity }: AppLinkCardProps) {
+function AppLinkCardComponent({ activity, onOpen }: AppLinkCardProps) {
   const handleOpen = () => {
     // Try to open the app via scheme
     const iframe = document.createElement('iframe')
@@ -32,6 +33,8 @@ function AppLinkCardComponent({ activity }: AppLinkCardProps) {
       }
     }
     document.addEventListener('visibilitychange', handleVisibilityChange)
+
+    onOpen?.()
   }
 
   const emoji = activity.emoji || '📱'

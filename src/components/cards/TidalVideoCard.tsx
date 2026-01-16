@@ -3,6 +3,7 @@ import type { TidalVideoActivity } from '../../types/activity'
 
 interface TidalVideoCardProps {
   activity: TidalVideoActivity
+  onOpen?: () => void
 }
 
 function formatDuration(seconds: number): string {
@@ -11,12 +12,13 @@ function formatDuration(seconds: number): string {
   return `${mins}:${secs.toString().padStart(2, '0')}`
 }
 
-function TidalVideoCardComponent({ activity }: TidalVideoCardProps) {
+function TidalVideoCardComponent({ activity, onOpen }: TidalVideoCardProps) {
   const [imgError, setImgError] = useState(false)
   const showImage = activity.imageUrl && !imgError
 
   const handleOpen = () => {
     window.open(activity.tidalUrl, '_blank', 'noopener,noreferrer')
+    onOpen?.()
   }
 
   return (

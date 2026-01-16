@@ -3,14 +3,16 @@ import type { TidalActivity } from '../../types/activity'
 
 interface TidalCardProps {
   activity: TidalActivity
+  onOpen?: () => void
 }
 
-function TidalCardComponent({ activity }: TidalCardProps) {
+function TidalCardComponent({ activity, onOpen }: TidalCardProps) {
   const [imgError, setImgError] = useState(false)
   const showAlbumArt = activity.albumArt && !imgError
 
   const handleOpen = () => {
     window.open(activity.tidalUrl, '_blank', 'noopener,noreferrer')
+    onOpen?.()
   }
 
   return (

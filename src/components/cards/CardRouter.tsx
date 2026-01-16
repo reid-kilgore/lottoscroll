@@ -8,22 +8,23 @@ import { GameCard } from './GameCard'
 
 interface CardRouterProps {
   activity: Activity
+  onOpen?: () => void
 }
 
-export function CardRouter({ activity }: CardRouterProps) {
+export function CardRouter({ activity, onOpen }: CardRouterProps) {
   switch (activity.type) {
     case 'article':
-      return <ArticleCard activity={activity} />
+      return <ArticleCard activity={activity} onOpen={onOpen} />
     case 'tidal':
-      return <TidalCard activity={activity} />
+      return <TidalCard activity={activity} onOpen={onOpen} />
     case 'tidal-video':
-      return <TidalVideoCard activity={activity} />
+      return <TidalVideoCard activity={activity} onOpen={onOpen} />
     case 'video':
-      return <VideoCard activity={activity} />
+      return <VideoCard activity={activity} onOpen={onOpen} />
     case 'app-link':
-      return <AppLinkCard activity={activity} />
+      return <AppLinkCard activity={activity} onOpen={onOpen} />
     case 'game':
-      return <GameCard activity={activity} />
+      return <GameCard activity={activity} onOpen={onOpen} />
     default: {
       const _exhaustive: never = activity
       throw new Error(`Unknown activity type: ${_exhaustive}`)

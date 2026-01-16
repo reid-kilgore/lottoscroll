@@ -3,11 +3,13 @@ import type { GameActivity } from '../../types/activity'
 
 interface GameCardProps {
   activity: GameActivity
+  onOpen?: () => void
 }
 
-function GameCardComponent({ activity }: GameCardProps) {
+function GameCardComponent({ activity, onOpen }: GameCardProps) {
   const handleOpen = () => {
     window.open(activity.url, '_blank', 'noopener,noreferrer')
+    onOpen?.()
   }
 
   const emoji = activity.emoji || '🎮'

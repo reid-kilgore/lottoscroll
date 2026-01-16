@@ -30,18 +30,23 @@ export function Feed() {
   // Get current activity
   const currentActivity = activities[currentIndex]
 
-  // Handle auto-open
-  const handleOpen = useCallback(() => {
+  // Handle auto-open (from countdown timer)
+  const handleAutoOpen = useCallback(() => {
     if (currentActivity) {
       openActivity(currentActivity)
       setShowPostOpen(true)
     }
   }, [currentActivity])
 
+  // Handle manual click (card already opens the link)
+  const handleCardClick = useCallback(() => {
+    setShowPostOpen(true)
+  }, [])
+
   // Countdown timer
   const countdown = useAutoOpen({
     duration: COUNTDOWN_DURATION,
-    onOpen: handleOpen,
+    onOpen: handleAutoOpen,
     isPaused: isScrolling || showPostOpen || isLoading,
     isScrolling,
     resetKey: currentIndex
@@ -89,7 +94,7 @@ export function Feed() {
         className="h-dvh w-full overflow-y-scroll snap-y snap-mandatory scrollbar-hide"
       >
         {activities.map((activity, index) => (
-          <FeedCard key={activity.id} activity={activity} index={index} />
+          <FeedCard key={activity.id} activity={activity} index={index} onOpen={handleCardClick} />
         ))}
       </div>
 

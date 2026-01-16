@@ -3,6 +3,7 @@ import type { VideoActivity } from '../../types/activity'
 
 interface VideoCardProps {
   activity: VideoActivity
+  onOpen?: () => void
 }
 
 const NEBULA_CREATORS: Record<string, string> = {
@@ -27,12 +28,13 @@ const NEBULA_CREATORS: Record<string, string> = {
   'watchcinemaofmeaning': '🎬',
 }
 
-function VideoCardComponent({ activity }: VideoCardProps) {
+function VideoCardComponent({ activity, onOpen }: VideoCardProps) {
   const [imgError, setImgError] = useState(false)
   const showImage = activity.imageUrl && !imgError
 
   const handleOpen = () => {
     window.open(activity.url, '_blank', 'noopener,noreferrer')
+    onOpen?.()
   }
 
   const isNebula = activity.platform === 'nebula'

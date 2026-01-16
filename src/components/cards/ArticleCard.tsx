@@ -3,6 +3,7 @@ import type { ArticleActivity } from '../../types/activity'
 
 interface ArticleCardProps {
   activity: ArticleActivity
+  onOpen?: () => void
 }
 
 const SOURCE_CONFIG: Record<string, { gradient: string; accent: string; emoji: string }> = {
@@ -20,13 +21,14 @@ const SOURCE_CONFIG: Record<string, { gradient: string; accent: string; emoji: s
 
 const DEFAULT_CONFIG = { gradient: 'from-zinc-800', accent: 'bg-zinc-400', emoji: '📰' }
 
-function ArticleCardComponent({ activity }: ArticleCardProps) {
+function ArticleCardComponent({ activity, onOpen }: ArticleCardProps) {
   const [imgError, setImgError] = useState(false)
   const config = SOURCE_CONFIG[activity.source] || DEFAULT_CONFIG
   const showImage = activity.imageUrl && !imgError
 
   const handleOpen = () => {
     window.open(activity.url, '_blank', 'noopener,noreferrer')
+    onOpen?.()
   }
 
   return (
