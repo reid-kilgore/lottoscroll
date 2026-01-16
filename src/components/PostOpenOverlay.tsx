@@ -25,47 +25,60 @@ function PostOpenOverlayComponent({
   }
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/90 flex flex-col items-center justify-center px-8">
-      <div className="text-center space-y-6 max-w-md">
-        {/* Icon */}
-        <div className="text-6xl">
-          {getActivityEmoji(activity)}
+    <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center px-6">
+      {/* Dialog card */}
+      <div className="bg-zinc-900 border border-zinc-700 rounded-2xl shadow-2xl max-w-sm w-full overflow-hidden">
+        {/* Header with icon and checkmark */}
+        <div className="bg-zinc-800 px-6 py-5 border-b border-zinc-700">
+          <div className="flex items-center gap-4">
+            <div className="text-4xl">{getActivityEmoji(activity)}</div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2">
+                <span className="text-green-400 text-lg">✓</span>
+                <h2 className="text-lg font-semibold text-white">Opened</h2>
+              </div>
+              <p className="text-zinc-400 text-sm truncate">{activity.source}</p>
+            </div>
+          </div>
         </div>
 
-        {/* Message */}
-        <div className="space-y-2">
-          <h2 className="text-2xl font-bold text-white">Opened in new tab</h2>
-          <p className="text-white/60 line-clamp-2">{activity.title}</p>
-          <p className="text-white/40 text-sm">{activity.source}</p>
+        {/* Content */}
+        <div className="px-6 py-4">
+          <p className="text-white/80 text-sm line-clamp-2 leading-relaxed">{activity.title}</p>
         </div>
 
-        {/* More/Less buttons */}
-        <div className="flex gap-4 justify-center">
-          <button
-            onClick={handleMore}
-            className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white rounded-full text-sm font-medium transition-colors active:scale-95"
-          >
-            More like this
-          </button>
-          <button
-            onClick={handleLess}
-            className="px-6 py-3 bg-red-600 hover:bg-red-500 text-white rounded-full text-sm font-medium transition-colors active:scale-95"
-          >
-            Less like this
-          </button>
+        {/* Preference buttons */}
+        <div className="px-6 pb-4">
+          <p className="text-zinc-500 text-xs mb-3 uppercase tracking-wide font-medium">
+            Adjust preferences
+          </p>
+          <div className="flex gap-3">
+            <button
+              onClick={handleMore}
+              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-zinc-800 hover:bg-zinc-700 border border-zinc-600 text-white rounded-xl text-sm font-medium transition-all active:scale-[0.98]"
+            >
+              <span className="text-green-400">▲</span>
+              More like this
+            </button>
+            <button
+              onClick={handleLess}
+              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-zinc-800 hover:bg-zinc-700 border border-zinc-600 text-white rounded-xl text-sm font-medium transition-all active:scale-[0.98]"
+            >
+              <span className="text-red-400">▼</span>
+              Less like this
+            </button>
+          </div>
         </div>
 
         {/* Continue button */}
-        <button
-          onClick={onDismiss}
-          className="px-8 py-4 bg-white text-black font-semibold text-lg rounded-full transition-transform active:scale-95"
-        >
-          Continue browsing
-        </button>
-
-        <p className="text-white/30 text-xs">
-          Preferences apply on next page load
-        </p>
+        <div className="px-6 pb-6">
+          <button
+            onClick={onDismiss}
+            className="w-full py-4 bg-white hover:bg-zinc-100 text-black font-semibold text-base rounded-xl transition-all active:scale-[0.98] shadow-lg"
+          >
+            Continue browsing
+          </button>
+        </div>
       </div>
     </div>
   )
