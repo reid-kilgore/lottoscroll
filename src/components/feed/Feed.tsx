@@ -3,6 +3,7 @@ import { useActivities } from '../../hooks/useActivities'
 import { useAutoOpen } from '../../hooks/useAutoOpen'
 import { useVisibleCard } from '../../hooks/useVisibleCard'
 import { useScrollState } from '../../hooks/useScrollState'
+import { usePreferences } from '../../hooks/usePreferences'
 import { openActivity } from '../../utils/openActivity'
 import { FeedCard } from './FeedCard'
 import { CountdownOverlay } from '../CountdownOverlay'
@@ -11,9 +12,14 @@ import { PostOpenOverlay } from '../PostOpenOverlay'
 const COUNTDOWN_DURATION = 5000 // 5 seconds
 
 export function Feed() {
-  const { activities, isLoading, error } = useActivities()
   const containerRef = useRef<HTMLDivElement>(null)
   const [showPostOpen, setShowPostOpen] = useState(false)
+
+  // Preferences for weighted sampling
+  const { getWeight, likeSource, dislikeSource } = usePreferences()
+
+  // Load activities with preference weights
+  const { activities, isLoading, error } = useActivities({ getWeight })
 
   // Detect which card is visible
   const currentIndex = useVisibleCard(containerRef)
@@ -37,7 +43,7 @@ export function Feed() {
     duration: COUNTDOWN_DURATION,
     onOpen: handleOpen,
     isPaused: isScrolling || showPostOpen || isLoading,
-    isScrolling, // separate flag for reset-on-scroll
+    isScrolling,
     resetKey: currentIndex
   })
 
@@ -46,6 +52,19 @@ export function Feed() {
     setShowPostOpen(false)
     countdown.reset()
   }, [countdown])
+
+  // Handle more/less like this
+  const handleMoreLikeThis = useCallback(() => {
+    if (currentActivity) {
+      likeSource(currentActivity.source)
+    }
+  }, [currentActivity, likeSource])
+
+  const handleLessLikeThis = useCallback(() => {
+    if (currentActivity) {
+      dislikeSource(currentActivity.source)
+    }
+  }, [currentActivity, dislikeSource])
 
   if (isLoading) {
     return (
@@ -87,6 +106,8 @@ export function Feed() {
         <PostOpenOverlay
           activity={currentActivity}
           onDismiss={handleDismiss}
+          onMoreLikeThis={handleMoreLikeThis}
+          onLessLikeThis={handleLessLikeThis}
         />
       )}
     </>

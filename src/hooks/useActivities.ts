@@ -21,10 +21,39 @@ function shuffle<T>(array: T[], random: () => number): T[] {
   return result
 }
 
-// Sample n items from array
-function sample<T>(array: T[], n: number, random: () => number): T[] {
-  const shuffled = shuffle(array, random)
-  return shuffled.slice(0, Math.min(n, array.length))
+// Weighted random sampling
+function weightedSample<T>(
+  items: T[],
+  count: number,
+  getWeight: (item: T) => number,
+  random: () => number
+): T[] {
+  if (items.length <= count) return shuffle(items, random)
+
+  const result: T[] = []
+  const remaining = [...items]
+
+  while (result.length < count && remaining.length > 0) {
+    // Calculate total weight
+    const weights = remaining.map(getWeight)
+    const totalWeight = weights.reduce((a, b) => a + b, 0)
+
+    // Pick random weighted item
+    let r = random() * totalWeight
+    let idx = 0
+    for (let i = 0; i < weights.length; i++) {
+      r -= weights[i]
+      if (r <= 0) {
+        idx = i
+        break
+      }
+    }
+
+    result.push(remaining[idx])
+    remaining.splice(idx, 1)
+  }
+
+  return result
 }
 
 // Content mix targets
@@ -35,10 +64,15 @@ const MIX = {
   video: 0.15,        // ~6 nebula videos
 }
 
-export function useActivities() {
+interface UseActivitiesOptions {
+  getWeight?: (source: string, type: string) => number
+}
+
+export function useActivities(options: UseActivitiesOptions = {}) {
   const [activities, setActivities] = useState<Activity[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const { getWeight } = options
 
   useEffect(() => {
     async function loadActivities() {
@@ -61,25 +95,33 @@ export function useActivities() {
           byType[type].push(item)
         }
 
+        // Weight function for sampling
+        const itemWeight = (item: Activity) => {
+          if (getWeight) {
+            return getWeight(item.source, item.type)
+          }
+          return 1
+        }
+
         // Sample from each category based on mix ratios
         const sampled: Activity[] = []
 
         // Sample articles
         if (byType['article']) {
           const count = Math.round(TARGET_TOTAL * MIX.article)
-          sampled.push(...sample(byType['article'], count, random))
+          sampled.push(...weightedSample(byType['article'], count, itemWeight, random))
         }
 
         // Sample tidal videos
         if (byType['tidal-video']) {
           const count = Math.round(TARGET_TOTAL * MIX['tidal-video'])
-          sampled.push(...sample(byType['tidal-video'], count, random))
+          sampled.push(...weightedSample(byType['tidal-video'], count, itemWeight, random))
         }
 
         // Sample nebula videos
         if (byType['video']) {
           const count = Math.round(TARGET_TOTAL * MIX.video)
-          sampled.push(...sample(byType['video'], count, random))
+          sampled.push(...weightedSample(byType['video'], count, itemWeight, random))
         }
 
         // Always include all games, app-links, and tidal tracks
@@ -102,7 +144,7 @@ export function useActivities() {
     }
 
     loadActivities()
-  }, [])
+  }, [getWeight])
 
   return { activities, isLoading, error }
 }
