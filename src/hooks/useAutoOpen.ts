@@ -24,6 +24,12 @@ export function useAutoOpen({
   const [timeLeft, setTimeLeft] = useState(duration)
   const intervalRef = useRef<number | null>(null)
   const hasOpenedRef = useRef(false)
+  const onOpenRef = useRef(onOpen)
+
+  // Keep onOpen ref up to date
+  useEffect(() => {
+    onOpenRef.current = onOpen
+  }, [onOpen])
 
   const reset = useCallback(() => {
     setTimeLeft(duration)
@@ -63,7 +69,8 @@ export function useAutoOpen({
           if (!hasOpenedRef.current) {
             hasOpenedRef.current = true
             // Use setTimeout to avoid state updates during render
-            setTimeout(() => onOpen(), 0)
+            // Use ref to get latest callback
+            setTimeout(() => onOpenRef.current(), 0)
           }
           return 0
         }
@@ -77,7 +84,7 @@ export function useAutoOpen({
         intervalRef.current = null
       }
     }
-  }, [isPaused, onOpen])
+  }, [isPaused])
 
   return {
     secondsLeft: Math.ceil(timeLeft / 1000),
