@@ -6,9 +6,17 @@ export function useVisibleCard(
   cardSelector: string = '[data-card-index]'
 ): number {
   const [visibleIndex, setVisibleIndex] = useState(0)
+  const [container, setContainer] = useState<HTMLElement | null>(null)
 
+  // Poll for container availability (ref.current is set after render)
   useEffect(() => {
-    const container = containerRef.current
+    if (containerRef.current && !container) {
+      setContainer(containerRef.current)
+    }
+  })
+
+  // Set up IntersectionObserver when container is available
+  useEffect(() => {
     if (!container) return
 
     const cards = container.querySelectorAll(cardSelector)
@@ -34,7 +42,7 @@ export function useVisibleCard(
     cards.forEach(card => observer.observe(card))
 
     return () => observer.disconnect()
-  }, [containerRef, cardSelector])
+  }, [container, cardSelector])
 
   return visibleIndex
 }

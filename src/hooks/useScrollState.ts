@@ -6,9 +6,17 @@ export function useScrollState(
   debounceMs: number = 150
 ): boolean {
   const [isScrolling, setIsScrolling] = useState(false)
+  const [container, setContainer] = useState<HTMLElement | null>(null)
 
+  // Poll for container availability (ref.current is set after render)
   useEffect(() => {
-    const container = containerRef.current
+    if (containerRef.current && !container) {
+      setContainer(containerRef.current)
+    }
+  })
+
+  // Attach scroll listener when container is available
+  useEffect(() => {
     if (!container) return
 
     let timeoutId: number | null = null
@@ -34,7 +42,7 @@ export function useScrollState(
         clearTimeout(timeoutId)
       }
     }
-  }, [containerRef, debounceMs])
+  }, [container, debounceMs])
 
   return isScrolling
 }
