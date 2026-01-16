@@ -4,6 +4,7 @@ interface UseAutoOpenOptions {
   duration: number
   onOpen: () => void
   isPaused: boolean
+  isScrolling: boolean // separate from isPaused - triggers reset
   resetKey: number | string
 }
 
@@ -17,6 +18,7 @@ export function useAutoOpen({
   duration,
   onOpen,
   isPaused,
+  isScrolling,
   resetKey
 }: UseAutoOpenOptions): UseAutoOpenReturn {
   const [timeLeft, setTimeLeft] = useState(duration)
@@ -33,12 +35,12 @@ export function useAutoOpen({
     reset()
   }, [resetKey, reset])
 
-  // Reset when paused (scroll starts)
+  // Reset when scrolling starts (but not when other pause reasons trigger)
   useEffect(() => {
-    if (isPaused) {
+    if (isScrolling) {
       reset()
     }
-  }, [isPaused, reset])
+  }, [isScrolling, reset])
 
   // Countdown timer
   useEffect(() => {
@@ -60,7 +62,8 @@ export function useAutoOpen({
           }
           if (!hasOpenedRef.current) {
             hasOpenedRef.current = true
-            onOpen()
+            // Use setTimeout to avoid state updates during render
+            setTimeout(() => onOpen(), 0)
           }
           return 0
         }

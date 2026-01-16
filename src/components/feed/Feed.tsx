@@ -37,6 +37,7 @@ export function Feed() {
     duration: COUNTDOWN_DURATION,
     onOpen: handleOpen,
     isPaused: isScrolling || showPostOpen || isLoading,
+    isScrolling, // separate flag for reset-on-scroll
     resetKey: currentIndex
   })
 
