@@ -52,11 +52,18 @@ export function Feed() {
     resetKey: currentIndex
   })
 
-  // Dismiss post-open overlay
+  // Dismiss post-open overlay and scroll to next card
   const handleDismiss = useCallback(() => {
     setShowPostOpen(false)
     countdown.reset()
-  }, [countdown])
+
+    // Scroll to next card
+    const nextIndex = currentIndex + 1
+    if (nextIndex < activities.length && containerRef.current) {
+      const nextCard = containerRef.current.querySelector(`[data-card-index="${nextIndex}"]`)
+      nextCard?.scrollIntoView({ behavior: 'smooth' })
+    }
+  }, [countdown, currentIndex, activities.length])
 
   // Handle more/less like this
   const handleMoreLikeThis = useCallback(() => {
