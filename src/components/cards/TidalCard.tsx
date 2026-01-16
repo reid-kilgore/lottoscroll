@@ -1,5 +1,4 @@
 import { memo, useState } from 'react'
-import { Disc3 } from 'lucide-react'
 import type { TidalActivity } from '../../types/activity'
 
 interface TidalCardProps {
@@ -31,23 +30,23 @@ function TidalCardComponent({ activity }: TidalCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 text-center px-8 space-y-4 pointer-events-none">
+      <div className="relative z-10 text-center px-8 space-y-6 pointer-events-none">
         {showAlbumArt ? (
           <img
             src={activity.albumArt}
             alt={activity.title}
-            className="w-48 h-48 mx-auto rounded-xl shadow-2xl object-cover"
+            className="w-64 h-64 mx-auto rounded-2xl shadow-2xl object-cover"
             onError={() => setImgError(true)}
           />
         ) : (
-          <div className="w-48 h-48 mx-auto rounded-xl bg-cyan-900/50 flex items-center justify-center">
-            <Disc3 size={80} className="text-cyan-400/60" />
-          </div>
+          <div className="text-9xl">🎵</div>
         )}
 
-        <div>
-          <p className="text-sm text-white/60 font-medium">{activity.artist}</p>
-          <h2 className="text-2xl font-bold text-white mt-1">{activity.title}</h2>
+        <div className="space-y-2">
+          <p className="text-base text-white/60 font-medium tracking-wide uppercase">
+            🎧 {activity.artist || 'Tidal'}
+          </p>
+          <h2 className="text-3xl font-bold text-white">{activity.title}</h2>
         </div>
       </div>
     </div>

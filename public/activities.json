@@ -89,6 +89,7 @@
     "url": "https://cluesbysam.com/",
     "gameName": "Clues by Sam",
     "source": "Clues by Sam",
+    "emoji": "🔍",
     "addedAt": 0
   },
   {
@@ -484,6 +485,7 @@
     "fallbackUrl": "https://apps.apple.com/app/ankimobile-flashcards/id373493387",
     "appName": "Anki",
     "source": "Anki",
+    "emoji": "🧠",
     "addedAt": 0
   },
   {
@@ -576,6 +578,7 @@
     "url": "https://inkwellgames.com/games/stars",
     "gameName": "Stars",
     "source": "Inkwell Games",
+    "emoji": "⭐",
     "addedAt": 0
   },
   {

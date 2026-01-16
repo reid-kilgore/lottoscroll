@@ -43,12 +43,14 @@ export interface AppLinkActivity extends BaseActivity {
   appScheme: string
   fallbackUrl?: string
   appName: string
+  emoji?: string
 }
 
 export interface GameActivity extends BaseActivity {
   type: 'game'
   url: string
   gameName: string
+  emoji?: string
 }
 
 export type Activity =

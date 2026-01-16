@@ -1,9 +1,30 @@
 import { memo, useState } from 'react'
-import { Film } from 'lucide-react'
 import type { VideoActivity } from '../../types/activity'
 
 interface VideoCardProps {
   activity: VideoActivity
+}
+
+const NEBULA_CREATORS: Record<string, string> = {
+  'bigjoel': '🎭',
+  'dex': '🌟',
+  'foamparty': '🎪',
+  'jacob-geller': '🎮',
+  'ladyemily': '📺',
+  'lauracrone': '🎬',
+  'lilyalexandre': '💭',
+  'lindsayellis': '🎥',
+  'littlejoel': '🎭',
+  'mancarryingthing': '📦',
+  'munecat': '😺',
+  'overvieweffekt': '🌍',
+  'philosophytube': '🎭',
+  'princessweekes': '📖',
+  'raz': '🌙',
+  'razbuten': '🎮',
+  'sarahz': '📚',
+  'theprince': '👑',
+  'watchcinemaofmeaning': '🎬',
 }
 
 function VideoCardComponent({ activity }: VideoCardProps) {
@@ -16,6 +37,8 @@ function VideoCardComponent({ activity }: VideoCardProps) {
 
   const isNebula = activity.platform === 'nebula'
   const gradientFrom = isNebula ? 'from-indigo-900' : 'from-red-900'
+  const platformEmoji = isNebula ? '🌌' : '▶️'
+  const creatorEmoji = NEBULA_CREATORS[activity.source] || '🎬'
 
   return (
     <div
@@ -34,29 +57,29 @@ function VideoCardComponent({ activity }: VideoCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 max-w-sm px-6 text-center space-y-5 pointer-events-none">
+      <div className="relative z-10 max-w-md px-8 text-center space-y-6 pointer-events-none">
         {showImage ? (
-          <div className="mx-auto rounded-xl overflow-hidden shadow-2xl aspect-video max-w-xs">
+          <div className="mx-auto rounded-2xl overflow-hidden shadow-2xl w-full max-w-[340px]">
             <img
               src={activity.imageUrl}
               alt={activity.title}
-              className="w-full h-full object-cover"
+              className="w-full aspect-video object-cover"
               onError={() => setImgError(true)}
             />
           </div>
         ) : (
-          <div className={`mx-auto rounded-xl aspect-video max-w-xs flex items-center justify-center ${isNebula ? 'bg-indigo-900/50' : 'bg-red-900/50'}`}>
-            <Film size={64} className="text-white/40" />
-          </div>
+          <div className="text-9xl">{creatorEmoji}</div>
         )}
 
-        <div className="space-y-2">
-          <p className="text-sm text-white/60 font-medium">{activity.source}</p>
-          <h2 className="text-2xl font-bold text-white leading-tight">
+        <div className="space-y-3">
+          <p className="text-base text-white/60 font-medium tracking-wide uppercase">
+            {platformEmoji} {activity.source}
+          </p>
+          <h2 className="text-3xl font-bold text-white leading-tight">
             {activity.title}
           </h2>
           {activity.description && (
-            <p className="text-base text-white/60 line-clamp-2">{activity.description}</p>
+            <p className="text-lg text-white/70 line-clamp-2">{activity.description}</p>
           )}
         </div>
       </div>

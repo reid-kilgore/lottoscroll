@@ -1,5 +1,4 @@
 import { memo, useState } from 'react'
-import { Film } from 'lucide-react'
 import type { TidalVideoActivity } from '../../types/activity'
 
 interface TidalVideoCardProps {
@@ -37,33 +36,31 @@ function TidalVideoCardComponent({ activity }: TidalVideoCardProps) {
         </div>
       )}
 
-      <div className="relative z-10 max-w-sm px-6 space-y-5 flex flex-col items-center pointer-events-none">
+      <div className="relative z-10 max-w-md px-8 space-y-6 flex flex-col items-center pointer-events-none">
         {showImage ? (
-          <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video max-w-[300px]">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-w-[340px]">
             <img
               src={activity.imageUrl}
               alt={activity.title}
-              className="w-full h-full object-cover"
+              className="w-full aspect-video object-cover"
               onError={() => setImgError(true)}
             />
             {activity.duration && (
-              <div className="absolute bottom-2 right-2 px-2 py-1 bg-black/70 rounded text-xs text-white">
+              <div className="absolute bottom-3 right-3 px-3 py-1.5 bg-black/80 rounded-lg text-sm font-medium text-white">
                 {formatDuration(activity.duration)}
               </div>
             )}
           </div>
         ) : (
-          <div className="w-20 h-20 rounded-2xl bg-rose-400 flex items-center justify-center">
-            <Film size={40} className="text-black/70" />
-          </div>
+          <div className="text-9xl">🎬</div>
         )}
 
         <div className="space-y-2 text-center">
-          <p className="text-sm text-white/60 font-medium">
-            {activity.artist}
-            {activity.explicit && <span className="ml-2 text-xs bg-white/20 px-1.5 py-0.5 rounded">E</span>}
+          <p className="text-base text-white/60 font-medium tracking-wide uppercase">
+            📺 {activity.artist}
+            {activity.explicit && <span className="ml-2 text-xs bg-white/20 px-2 py-1 rounded">E</span>}
           </p>
-          <h2 className="text-2xl font-bold text-white leading-tight">
+          <h2 className="text-3xl font-bold text-white leading-tight">
             {activity.title}
           </h2>
         </div>

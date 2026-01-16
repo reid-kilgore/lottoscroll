@@ -1,5 +1,4 @@
 import { memo } from 'react'
-import { Smartphone } from 'lucide-react'
 import type { AppLinkActivity } from '../../types/activity'
 
 interface AppLinkCardProps {
@@ -35,23 +34,23 @@ function AppLinkCardComponent({ activity }: AppLinkCardProps) {
     document.addEventListener('visibilitychange', handleVisibilityChange)
   }
 
+  const emoji = activity.emoji || '📱'
+
   return (
     <div
       onClick={handleOpen}
       className="relative w-full h-full flex items-center justify-center bg-gradient-to-b from-violet-900 via-zinc-900 to-black cursor-pointer active:opacity-90"
     >
-      <div className="relative z-10 max-w-sm px-6 text-center space-y-5 pointer-events-none">
-        <div className="w-20 h-20 mx-auto rounded-2xl bg-violet-400 flex items-center justify-center">
-          <Smartphone size={40} className="text-black/70" />
-        </div>
+      <div className="relative z-10 max-w-md px-8 text-center space-y-8 pointer-events-none">
+        <div className="text-9xl">{emoji}</div>
 
-        <div className="space-y-2">
-          <p className="text-sm text-white/60 font-medium">{activity.appName}</p>
-          <h2 className="text-3xl font-bold text-white leading-tight">
+        <div className="space-y-3">
+          <p className="text-base text-white/60 font-medium tracking-wide uppercase">{activity.appName}</p>
+          <h2 className="text-4xl font-bold text-white leading-tight">
             {activity.title}
           </h2>
           {activity.description && (
-            <p className="text-lg text-white/60">{activity.description}</p>
+            <p className="text-xl text-white/70">{activity.description}</p>
           )}
         </div>
       </div>
