@@ -117,17 +117,14 @@ async function main() {
 
   console.log(`Got: ${sampledArticles.length} articles, ${sampledTidalVideos.length} tidal videos, ${sampledNebula.length} nebula`)
 
-  // Combine and shuffle
-  const combined = [...sampledArticles, ...sampledTidalVideos, ...sampledNebula]
-  const shuffled = shuffle(combined, random)
-
-  // Insert evergreen content at random positions (always included)
-  const final = [...shuffled]
-  const allEvergreen = [...games, ...evergreenVideos]
-  for (const item of allEvergreen) {
-    const pos = Math.floor(random() * (final.length + 1))
-    final.splice(pos, 0, item)
-  }
+  // Combine all content (client-side will shuffle on page load)
+  const final = [
+    ...sampledArticles,
+    ...sampledTidalVideos,
+    ...sampledNebula,
+    ...games,
+    ...evergreenVideos
+  ]
 
   console.log(`\nTotal activities: ${final.length} (including ${games.length} games, ${evergreenVideos.length} evergreen videos)`)
 

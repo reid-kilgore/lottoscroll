@@ -1,155 +1,5 @@
 [
   {
-    "id": "tidal-video-226170599",
-    "video_id": 226170599,
-    "type": "tidal-video",
-    "title": "Where you are (feat. WILLOW)",
-    "artist": "PinkPantheress",
-    "artist_id": 23409727,
-    "duration": 192,
-    "tidalUrl": "https://tidal.com/browse/video/226170599",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 12,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "4o0jurlvdim",
-    "type": "article",
-    "title": "A Software Library with No Code",
-    "url": "https://simonwillison.net/2026/Jan/10/a-software-library-with-no-code/#atom-everything",
-    "source": "Simon Willison",
-    "tags": [
-      "tech",
-      "ai"
-    ],
-    "addedAt": 1768088518000
-  },
-  {
-    "id": "tidal-video-417388583",
-    "video_id": 417388583,
-    "type": "tidal-video",
-    "title": "High Fashion (Official Video)",
-    "artist": "Addison Rae",
-    "artist_id": 19667603,
-    "duration": 224,
-    "tidalUrl": "https://tidal.com/browse/video/417388583",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 60,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "yducdvyf4dm",
-    "type": "video",
-    "title": "Groypers are the most contrarian people on earth",
-    "description": "wooo",
-    "url": "https://nebula.tv/videos/littlejoel-groypers-are-the-most-contrarian-people-on-earth/",
-    "source": "littlejoel",
-    "tags": [
-      "video",
-      "learning"
-    ],
-    "addedAt": 1765229953000,
-    "platform": "nebula"
-  },
-  {
-    "id": "crashcourse-hamlet-1",
-    "type": "video",
-    "title": "Hamlet (Part 1)",
-    "description": "Crash Course Literature",
-    "url": "https://thecrashcourse.com/courses/ghosts-murder-and-more-murder-hamlet-part-i-crash-course-literature-203/",
-    "platform": "youtube",
-    "source": "Crash Course",
-    "tags": [
-      "literature",
-      "learning"
-    ],
-    "addedAt": 0
-  },
-  {
-    "id": "tidal-video-368504493",
-    "video_id": 368504493,
-    "type": "tidal-video",
-    "title": "Midnight Ride (Lyric Video)",
-    "artist": "Orville Peck",
-    "artist_id": 9322911,
-    "duration": 214,
-    "tidalUrl": "https://tidal.com/browse/video/368504493",
-    "imageUrl": null,
-    "explicit": false,
-    "popularity": 13,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "crashcourse-100yrs-1",
-    "type": "video",
-    "title": "100 Years of Solitude (Part 1)",
-    "description": "Crash Course Literature",
-    "url": "https://thecrashcourse.com/courses/100-years-of-solitude-part-1-crash-course-literature-306/",
-    "platform": "youtube",
-    "source": "Crash Course",
-    "tags": [
-      "literature",
-      "learning"
-    ],
-    "addedAt": 0
-  },
-  {
-    "id": "tidal-video-223508205",
-    "video_id": 223508205,
-    "type": "tidal-video",
-    "title": "Can't Stop Writing Songs About You",
-    "artist": "Kylie Minogue",
-    "artist_id": 2573,
-    "duration": 184,
-    "tidalUrl": "https://tidal.com/browse/video/223508205",
-    "imageUrl": null,
-    "explicit": false,
-    "popularity": 11,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "crashcourse-100yrs-2",
-    "type": "video",
-    "title": "100 Years of Solitude (Part 2)",
-    "description": "Crash Course Literature",
-    "url": "https://thecrashcourse.com/courses/100-years-of-solitude-part-2-crash-course-literature-307/",
-    "platform": "youtube",
-    "source": "Crash Course",
-    "tags": [
-      "literature",
-      "learning"
-    ],
-    "addedAt": 0
-  },
-  {
-    "id": "50dy1mrrs0m",
-    "type": "article",
-    "title": "Running on the spot in a dream.",
-    "description": "This feels good right now...",
-    "url": "https://itscharlibb.substack.com/p/running-on-the-spot-in-a-dream",
-    "source": "charli bb",
-    "tags": [
-      "blog"
-    ],
-    "addedAt": 1762969998000,
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6643301c-ca99-4b78-a17b-6e6dcd7207f8.heic"
-  },
-  {
-    "id": "nw1hkh2gs5",
-    "type": "article",
-    "title": "Going immutable on macOS",
-    "description": "Comments",
-    "url": "https://carette.xyz/posts/going_immutable_macos/",
-    "source": "Lobsters",
-    "tags": [
-      "tech",
-      "programming"
-    ],
-    "addedAt": 1768490218000
-  },
-  {
     "id": "wrvs3mkm7uo",
     "type": "article",
     "title": "Ten Writing Prompts",
@@ -161,20 +11,6 @@
       "essays"
     ],
     "addedAt": 1768406205000
-  },
-  {
-    "id": "zmkitkp0ywb",
-    "type": "video",
-    "title": "Chatting to Alice Cappelle!: Ep.4 | Nebula Plus",
-    "description": "Alice & I chat about ‘Adolescence’, European beers, journalism, media skepticism & debates",
-    "url": "https://nebula.tv/videos/foamparty-chatting-to-alice-cappelle-ep4/",
-    "source": "foamparty",
-    "tags": [
-      "video",
-      "learning"
-    ],
-    "addedAt": 1743789610000,
-    "platform": "nebula"
   },
   {
     "id": "o3re1ntb4bf",
@@ -191,110 +27,31 @@
     "imageUrl": "https://www.nybooks.com/wp-content/uploads/2026/01/Roy202601_1.jpeg"
   },
   {
-    "id": "app-anki",
-    "type": "app-link",
-    "title": "Review your flashcards",
-    "description": "Time to study!",
-    "appScheme": "anki://",
-    "fallbackUrl": "https://apps.apple.com/app/ankimobile-flashcards/id373493387",
-    "appName": "Anki",
-    "source": "Anki",
-    "emoji": "🧠",
-    "addedAt": 0
-  },
-  {
-    "id": "tidal-video-254910182",
-    "video_id": 254910182,
-    "type": "tidal-video",
-    "title": "Bruddanem / Crack Sandwich",
-    "artist": "JID",
-    "artist_id": 7061089,
-    "duration": 363,
-    "tidalUrl": "https://tidal.com/browse/video/254910182",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 29,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "tidal-video-467464166",
-    "video_id": 467464166,
-    "type": "tidal-video",
-    "title": "I Want My Boyfriends to Kiss (Visualiser Video)",
-    "artist": "Ashnikko",
-    "artist_id": 6266364,
-    "duration": 147,
-    "tidalUrl": "https://tidal.com/browse/video/467464166",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 5,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "s3u94sx9lnq",
+    "id": "fmmx1d0kobo",
     "type": "article",
-    "title": "Ask HN: How can we solve the loneliness epidemic?",
-    "description": "Countless voiceless people sit alone every day and have no one to talk to, people of all ages, who don't feel that they can join any local groups. So they sit on social media all day when they're not ",
-    "url": "https://news.ycombinator.com/item?id=46635345",
-    "source": "Hacker News",
+    "title": "Satie’s Spell",
+    "description": "Erik Satie took down the arrogance of late Romantic classical music, gently but ruthlessly taking up its vocabulary and removing all the excess, including authorship.",
+    "url": "https://www.nybooks.com/articles/2026/01/15/erik-satie-three-piece-suite-penman/",
+    "source": "NYRB",
     "tags": [
-      "tech",
-      "news"
+      "reading",
+      "essays"
     ],
-    "addedAt": 1768495753000
+    "addedAt": 1766667600000,
+    "imageUrl": "https://www.nybooks.com/wp-content/uploads/2025/12/denk_1-011526-900.jpg"
   },
   {
-    "id": "58l5643bfp9",
+    "id": "nw1hkh2gs5",
     "type": "article",
-    "title": "I’m The Captain Now: Hijacking a global ocean supply chain network",
+    "title": "Going immutable on macOS",
     "description": "Comments",
-    "url": "https://eaton-works.com/2026/01/14/bluspark-bluvoyix-hack/",
+    "url": "https://carette.xyz/posts/going_immutable_macos/",
     "source": "Lobsters",
     "tags": [
       "tech",
       "programming"
     ],
-    "addedAt": 1768482699000
-  },
-  {
-    "id": "34x15ujk67m",
-    "type": "article",
-    "title": "First impressions of Claude Cowork, Anthropic's general agent",
-    "url": "https://simonwillison.net/2026/Jan/12/claude-cowork/#atom-everything",
-    "source": "Simon Willison",
-    "tags": [
-      "tech",
-      "ai"
-    ],
-    "addedAt": 1768254373000
-  },
-  {
-    "id": "tidal-video-465985435",
-    "video_id": 465985435,
-    "type": "tidal-video",
-    "title": "Beat A B!tch Up",
-    "artist": "Alemeda",
-    "artist_id": 21571080,
-    "duration": 184,
-    "tidalUrl": "https://tidal.com/browse/video/465985435",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 38,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "tidal-video-241700971",
-    "video_id": 241700971,
-    "type": "tidal-video",
-    "title": "This Bitch Matters (Lyric Video)",
-    "artist": "Doechii",
-    "artist_id": 10404097,
-    "duration": 100,
-    "tidalUrl": "https://tidal.com/browse/video/241700971",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 30,
-    "source": "Tidal Video"
+    "addedAt": 1768490218000
   },
   {
     "id": "x9soru0z3p",
@@ -308,6 +65,32 @@
       "programming"
     ],
     "addedAt": 1768521711000
+  },
+  {
+    "id": "4o0jurlvdim",
+    "type": "article",
+    "title": "A Software Library with No Code",
+    "url": "https://simonwillison.net/2026/Jan/10/a-software-library-with-no-code/#atom-everything",
+    "source": "Simon Willison",
+    "tags": [
+      "tech",
+      "ai"
+    ],
+    "addedAt": 1768088518000
+  },
+  {
+    "id": "xemzywmk79",
+    "type": "article",
+    "title": "It’s a Gas",
+    "description": "I’m writing this in the last days of the northern hemisphere’s autumn in 2025. Over recent weeks we’ve seen a hurricane hit Jamaica with wind speeds a few hundred feet above sea level topping 250 mile",
+    "url": "https://www.nybooks.com/articles/2026/01/15/its-a-gas-the-story-of-co2-mckibben/",
+    "source": "NYRB",
+    "tags": [
+      "reading",
+      "essays"
+    ],
+    "addedAt": 1766667600000,
+    "imageUrl": "https://www.nybooks.com/wp-content/uploads/2025/12/mckibben_1-011526-900.jpg"
   },
   {
     "id": "37re2if8qgh",
@@ -324,45 +107,31 @@
     "imageUrl": "https://i0.wp.com/www.thecity.nyc/wp-content/uploads/2026/01/011326_sinai_strike-1.jpg?fit=1024%2C683&amp;ssl=1"
   },
   {
-    "id": "se5xzu8005",
-    "type": "video",
-    "title": "The Games I Wish I Never Replayed",
-    "description": "The thing about having a favorite anything is that there is a more than decent chance that one day it no longer will be your favorite, and that shift can be jarring. This video explores how this has h",
-    "url": "https://nebula.tv/videos/razbuten-the-games-i-wish-i-never-replayed/",
-    "source": "razbuten",
+    "id": "58l5643bfp9",
+    "type": "article",
+    "title": "I’m The Captain Now: Hijacking a global ocean supply chain network",
+    "description": "Comments",
+    "url": "https://eaton-works.com/2026/01/14/bluspark-bluvoyix-hack/",
+    "source": "Lobsters",
     "tags": [
-      "video",
-      "learning"
+      "tech",
+      "programming"
     ],
-    "addedAt": 1680651075000,
-    "platform": "nebula"
+    "addedAt": 1768482699000
   },
   {
-    "id": "ec6jqpgj4yr",
+    "id": "l26t14k3fho",
     "type": "article",
-    "title": "Two Women, Three Guns: On Hedda Gabler and Anna Christie",
-    "description": "“In Anna and Hedda we see our best and worst selves, for who doesn’t wish that things were other than they are? Seen one after another, the plays turn each other inside out.”",
-    "url": "https://www.theparisreview.org/blog/2026/01/09/two-women-three-guns-on-hedda-gabler-and-anna-christie/",
-    "source": "Paris Review",
+    "title": "Democratic Excellence",
+    "description": "Zohran Mamdani has introduced several changes to American politics—joining ideological maximalism to policy minimalism, crafting a winning political identity as a Muslim socialist, taking a stand on P",
+    "url": "https://www.nybooks.com/online/2025/12/31/democratic-excellence-zohran-mamdani/",
+    "source": "NYRB",
     "tags": [
       "reading",
       "essays"
     ],
-    "addedAt": 1767973823000
-  },
-  {
-    "id": "tidal-video-197548273",
-    "video_id": 197548273,
-    "type": "tidal-video",
-    "title": "Just for me",
-    "artist": "PinkPantheress",
-    "artist_id": 23409727,
-    "duration": 135,
-    "tidalUrl": "https://tidal.com/browse/video/197548273",
-    "imageUrl": null,
-    "explicit": false,
-    "popularity": 27,
-    "source": "Tidal Video"
+    "addedAt": 1767195202000,
+    "imageUrl": "https://www.nybooks.com/wp-content/uploads/2025/12/Mamdani202512_34.jpeg"
   },
   {
     "id": "rl6fbn1osko",
@@ -392,18 +161,137 @@
     "addedAt": 1768499484000
   },
   {
-    "id": "fmmx1d0kobo",
+    "id": "ec6jqpgj4yr",
     "type": "article",
-    "title": "Satie’s Spell",
-    "description": "Erik Satie took down the arrogance of late Romantic classical music, gently but ruthlessly taking up its vocabulary and removing all the excess, including authorship.",
-    "url": "https://www.nybooks.com/articles/2026/01/15/erik-satie-three-piece-suite-penman/",
-    "source": "NYRB",
+    "title": "Two Women, Three Guns: On Hedda Gabler and Anna Christie",
+    "description": "“In Anna and Hedda we see our best and worst selves, for who doesn’t wish that things were other than they are? Seen one after another, the plays turn each other inside out.”",
+    "url": "https://www.theparisreview.org/blog/2026/01/09/two-women-three-guns-on-hedda-gabler-and-anna-christie/",
+    "source": "Paris Review",
     "tags": [
       "reading",
       "essays"
     ],
-    "addedAt": 1766667600000,
-    "imageUrl": "https://www.nybooks.com/wp-content/uploads/2025/12/denk_1-011526-900.jpg"
+    "addedAt": 1767973823000
+  },
+  {
+    "id": "50dy1mrrs0m",
+    "type": "article",
+    "title": "Running on the spot in a dream.",
+    "description": "This feels good right now...",
+    "url": "https://itscharlibb.substack.com/p/running-on-the-spot-in-a-dream",
+    "source": "charli bb",
+    "tags": [
+      "blog"
+    ],
+    "addedAt": 1762969998000,
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6643301c-ca99-4b78-a17b-6e6dcd7207f8.heic"
+  },
+  {
+    "id": "s3u94sx9lnq",
+    "type": "article",
+    "title": "Ask HN: How can we solve the loneliness epidemic?",
+    "description": "Countless voiceless people sit alone every day and have no one to talk to, people of all ages, who don't feel that they can join any local groups. So they sit on social media all day when they're not ",
+    "url": "https://news.ycombinator.com/item?id=46635345",
+    "source": "Hacker News",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "addedAt": 1768495753000
+  },
+  {
+    "id": "crxb40ansu5",
+    "type": "article",
+    "title": "Alternatives to MinIO for single-node local S3",
+    "description": "Comments",
+    "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+    "source": "Lobsters",
+    "tags": [
+      "tech",
+      "programming"
+    ],
+    "addedAt": 1768466307000
+  },
+  {
+    "id": "34x15ujk67m",
+    "type": "article",
+    "title": "First impressions of Claude Cowork, Anthropic's general agent",
+    "url": "https://simonwillison.net/2026/Jan/12/claude-cowork/#atom-everything",
+    "source": "Simon Willison",
+    "tags": [
+      "tech",
+      "ai"
+    ],
+    "addedAt": 1768254373000
+  },
+  {
+    "id": "8z8pxpz6mja",
+    "type": "article",
+    "title": "Inside The Internet Archive's Infrastructure",
+    "description": "https://github.com/internetarchive/heritrix3 Comments URL: https://news.ycombinator.com/item?id=46613324 Points: 255 # Comments: 62",
+    "url": "https://hackernoon.com/the-long-now-of-the-web-inside-the-internet-archives-fight-against-forgetting",
+    "source": "Hacker News",
+    "tags": [
+      "tech",
+      "news"
+    ],
+    "addedAt": 1768375612000
+  },
+  {
+    "id": "tidal-video-465985435",
+    "video_id": 465985435,
+    "type": "tidal-video",
+    "title": "Beat A B!tch Up",
+    "artist": "Alemeda",
+    "artist_id": 21571080,
+    "duration": 184,
+    "tidalUrl": "https://tidal.com/browse/video/465985435",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 38,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-368504493",
+    "video_id": 368504493,
+    "type": "tidal-video",
+    "title": "Midnight Ride (Lyric Video)",
+    "artist": "Orville Peck",
+    "artist_id": 9322911,
+    "duration": 214,
+    "tidalUrl": "https://tidal.com/browse/video/368504493",
+    "imageUrl": null,
+    "explicit": false,
+    "popularity": 13,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-435584831",
+    "video_id": 435584831,
+    "type": "tidal-video",
+    "title": "WRK",
+    "artist": "JID",
+    "artist_id": 7061089,
+    "duration": 219,
+    "tidalUrl": "https://tidal.com/browse/video/435584831",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 45,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-467464166",
+    "video_id": 467464166,
+    "type": "tidal-video",
+    "title": "I Want My Boyfriends to Kiss (Visualiser Video)",
+    "artist": "Ashnikko",
+    "artist_id": 6266364,
+    "duration": 147,
+    "tidalUrl": "https://tidal.com/browse/video/467464166",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 5,
+    "source": "Tidal Video"
   },
   {
     "id": "tidal-video-248608928",
@@ -420,18 +308,228 @@
     "source": "Tidal Video"
   },
   {
-    "id": "xemzywmk79",
-    "type": "article",
-    "title": "It’s a Gas",
-    "description": "I’m writing this in the last days of the northern hemisphere’s autumn in 2025. Over recent weeks we’ve seen a hurricane hit Jamaica with wind speeds a few hundred feet above sea level topping 250 mile",
-    "url": "https://www.nybooks.com/articles/2026/01/15/its-a-gas-the-story-of-co2-mckibben/",
-    "source": "NYRB",
+    "id": "tidal-video-226170599",
+    "video_id": 226170599,
+    "type": "tidal-video",
+    "title": "Where you are (feat. WILLOW)",
+    "artist": "PinkPantheress",
+    "artist_id": 23409727,
+    "duration": 192,
+    "tidalUrl": "https://tidal.com/browse/video/226170599",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 12,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-254910182",
+    "video_id": 254910182,
+    "type": "tidal-video",
+    "title": "Bruddanem / Crack Sandwich",
+    "artist": "JID",
+    "artist_id": 7061089,
+    "duration": 363,
+    "tidalUrl": "https://tidal.com/browse/video/254910182",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 29,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-248885776",
+    "video_id": 248885776,
+    "type": "tidal-video",
+    "title": "Exibisionista",
+    "artist": "Isabella Lovestory",
+    "artist_id": 9922319,
+    "duration": 191,
+    "tidalUrl": "https://tidal.com/browse/video/248885776",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 1,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-185397492",
+    "video_id": 185397492,
+    "type": "tidal-video",
+    "title": "Hood",
+    "artist": "Perfume Genius",
+    "artist_id": 3698953,
+    "duration": 119,
+    "tidalUrl": "https://tidal.com/browse/video/185397492",
+    "imageUrl": null,
+    "explicit": false,
+    "popularity": 15,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-197548273",
+    "video_id": 197548273,
+    "type": "tidal-video",
+    "title": "Just for me",
+    "artist": "PinkPantheress",
+    "artist_id": 23409727,
+    "duration": 135,
+    "tidalUrl": "https://tidal.com/browse/video/197548273",
+    "imageUrl": null,
+    "explicit": false,
+    "popularity": 27,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-235077129",
+    "video_id": 235077129,
+    "type": "tidal-video",
+    "title": "Talk About Me",
+    "artist": "Dot Da Genius",
+    "artist_id": 8834650,
+    "duration": 194,
+    "tidalUrl": "https://tidal.com/browse/video/235077129",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 19,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-417388583",
+    "video_id": 417388583,
+    "type": "tidal-video",
+    "title": "High Fashion (Official Video)",
+    "artist": "Addison Rae",
+    "artist_id": 19667603,
+    "duration": 224,
+    "tidalUrl": "https://tidal.com/browse/video/417388583",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 60,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-400663319",
+    "video_id": 400663319,
+    "type": "tidal-video",
+    "title": "obvious",
+    "artist": "Oklou",
+    "artist_id": 8140560,
+    "duration": 165,
+    "tidalUrl": "https://tidal.com/browse/video/400663319",
+    "imageUrl": null,
+    "explicit": false,
+    "popularity": 23,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-223508205",
+    "video_id": 223508205,
+    "type": "tidal-video",
+    "title": "Can't Stop Writing Songs About You",
+    "artist": "Kylie Minogue",
+    "artist_id": 2573,
+    "duration": 184,
+    "tidalUrl": "https://tidal.com/browse/video/223508205",
+    "imageUrl": null,
+    "explicit": false,
+    "popularity": 11,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-399606735",
+    "video_id": 399606735,
+    "type": "tidal-video",
+    "title": "Aquamarine / Arcamarine",
+    "artist": "Addison Rae",
+    "artist_id": 19667603,
+    "duration": 204,
+    "tidalUrl": "https://tidal.com/browse/video/399606735",
+    "imageUrl": null,
+    "explicit": false,
+    "popularity": 34,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "tidal-video-241700971",
+    "video_id": 241700971,
+    "type": "tidal-video",
+    "title": "This Bitch Matters (Lyric Video)",
+    "artist": "Doechii",
+    "artist_id": 10404097,
+    "duration": 100,
+    "tidalUrl": "https://tidal.com/browse/video/241700971",
+    "imageUrl": null,
+    "explicit": true,
+    "popularity": 30,
+    "source": "Tidal Video"
+  },
+  {
+    "id": "yducdvyf4dm",
+    "type": "video",
+    "title": "Groypers are the most contrarian people on earth",
+    "description": "wooo",
+    "url": "https://nebula.tv/videos/littlejoel-groypers-are-the-most-contrarian-people-on-earth/",
+    "source": "littlejoel",
     "tags": [
-      "reading",
-      "essays"
+      "video",
+      "learning"
     ],
-    "addedAt": 1766667600000,
-    "imageUrl": "https://www.nybooks.com/wp-content/uploads/2025/12/mckibben_1-011526-900.jpg"
+    "addedAt": 1765229953000,
+    "platform": "nebula"
+  },
+  {
+    "id": "se5xzu8005",
+    "type": "video",
+    "title": "The Games I Wish I Never Replayed",
+    "description": "The thing about having a favorite anything is that there is a more than decent chance that one day it no longer will be your favorite, and that shift can be jarring. This video explores how this has h",
+    "url": "https://nebula.tv/videos/razbuten-the-games-i-wish-i-never-replayed/",
+    "source": "razbuten",
+    "tags": [
+      "video",
+      "learning"
+    ],
+    "addedAt": 1680651075000,
+    "platform": "nebula"
+  },
+  {
+    "id": "gkllp6yy6o9",
+    "type": "video",
+    "title": "Doctor Who's Anti-Abortion Episode | Nebula Plus",
+    "description": "On an episode of Doctor Who that will haunt me until the day I die. Support me: Merch: https://standard.tv/sarahz https://www.patreon.com/SarahZ https://twitter.com/marysuewriter Check out my cowriter",
+    "url": "https://nebula.tv/videos/sarahz-doctor-whos-antiabortion-episode/",
+    "source": "sarahz",
+    "tags": [
+      "video",
+      "learning"
+    ],
+    "addedAt": 1661971982000,
+    "platform": "nebula"
+  },
+  {
+    "id": "zmkitkp0ywb",
+    "type": "video",
+    "title": "Chatting to Alice Cappelle!: Ep.4 | Nebula Plus",
+    "description": "Alice & I chat about ‘Adolescence’, European beers, journalism, media skepticism & debates",
+    "url": "https://nebula.tv/videos/foamparty-chatting-to-alice-cappelle-ep4/",
+    "source": "foamparty",
+    "tags": [
+      "video",
+      "learning"
+    ],
+    "addedAt": 1743789610000,
+    "platform": "nebula"
+  },
+  {
+    "id": "8w93h492ybs",
+    "type": "video",
+    "title": "The Failure of Channel Awesome's Demo Reel",
+    "description": "Duration: 1:02:14 In which we look at Doug Walker's forgotten attempt to move on past the Nostalgia Critic. Title Card and Graphics By: Beck \"azuill\" https://twitter.com/azoolaboola",
+    "url": "https://nebula.tv/videos/lady-emily-the-failure-of-channel-awesome-s-demo-reel/",
+    "source": "ladyemily",
+    "tags": [
+      "video",
+      "learning"
+    ],
+    "addedAt": 1614358800000,
+    "platform": "nebula"
   },
   {
     "id": "i0cdb9hhi29",
@@ -459,76 +557,6 @@
     "addedAt": 0
   },
   {
-    "id": "tidal-video-185397492",
-    "video_id": 185397492,
-    "type": "tidal-video",
-    "title": "Hood",
-    "artist": "Perfume Genius",
-    "artist_id": 3698953,
-    "duration": 119,
-    "tidalUrl": "https://tidal.com/browse/video/185397492",
-    "imageUrl": null,
-    "explicit": false,
-    "popularity": 15,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "crashcourse-tfa-2",
-    "type": "video",
-    "title": "Things Fall Apart (Part 2)",
-    "description": "Crash Course Literature",
-    "url": "https://thecrashcourse.com/courses/things-fall-apart-part-2-crash-course-literature-209/",
-    "platform": "youtube",
-    "source": "Crash Course",
-    "tags": [
-      "literature",
-      "learning"
-    ],
-    "addedAt": 0
-  },
-  {
-    "id": "tidal-video-235077129",
-    "video_id": 235077129,
-    "type": "tidal-video",
-    "title": "Talk About Me",
-    "artist": "Dot Da Genius",
-    "artist_id": 8834650,
-    "duration": 194,
-    "tidalUrl": "https://tidal.com/browse/video/235077129",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 19,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "8w93h492ybs",
-    "type": "video",
-    "title": "The Failure of Channel Awesome's Demo Reel",
-    "description": "Duration: 1:02:14 In which we look at Doug Walker's forgotten attempt to move on past the Nostalgia Critic. Title Card and Graphics By: Beck \"azuill\" https://twitter.com/azoolaboola",
-    "url": "https://nebula.tv/videos/lady-emily-the-failure-of-channel-awesome-s-demo-reel/",
-    "source": "ladyemily",
-    "tags": [
-      "video",
-      "learning"
-    ],
-    "addedAt": 1614358800000,
-    "platform": "nebula"
-  },
-  {
-    "id": "gkllp6yy6o9",
-    "type": "video",
-    "title": "Doctor Who's Anti-Abortion Episode | Nebula Plus",
-    "description": "On an episode of Doctor Who that will haunt me until the day I die. Support me: Merch: https://standard.tv/sarahz https://www.patreon.com/SarahZ https://twitter.com/marysuewriter Check out my cowriter",
-    "url": "https://nebula.tv/videos/sarahz-doctor-whos-antiabortion-episode/",
-    "source": "sarahz",
-    "tags": [
-      "video",
-      "learning"
-    ],
-    "addedAt": 1661971982000,
-    "platform": "nebula"
-  },
-  {
     "id": "game-stars",
     "type": "game",
     "title": "Today's Stars",
@@ -540,65 +568,23 @@
     "addedAt": 0
   },
   {
-    "id": "8z8pxpz6mja",
-    "type": "article",
-    "title": "Inside The Internet Archive's Infrastructure",
-    "description": "https://github.com/internetarchive/heritrix3 Comments URL: https://news.ycombinator.com/item?id=46613324 Points: 255 # Comments: 62",
-    "url": "https://hackernoon.com/the-long-now-of-the-web-inside-the-internet-archives-fight-against-forgetting",
-    "source": "Hacker News",
-    "tags": [
-      "tech",
-      "news"
-    ],
-    "addedAt": 1768375612000
+    "id": "app-anki",
+    "type": "app-link",
+    "title": "Review your flashcards",
+    "description": "Time to study!",
+    "appScheme": "anki://",
+    "fallbackUrl": "https://apps.apple.com/app/ankimobile-flashcards/id373493387",
+    "appName": "Anki",
+    "source": "Anki",
+    "emoji": "🧠",
+    "addedAt": 0
   },
   {
-    "id": "tidal-video-400663319",
-    "video_id": 400663319,
-    "type": "tidal-video",
-    "title": "obvious",
-    "artist": "Oklou",
-    "artist_id": 8140560,
-    "duration": 165,
-    "tidalUrl": "https://tidal.com/browse/video/400663319",
-    "imageUrl": null,
-    "explicit": false,
-    "popularity": 23,
-    "source": "Tidal Video"
-  },
-  {
-    "id": "l26t14k3fho",
-    "type": "article",
-    "title": "Democratic Excellence",
-    "description": "Zohran Mamdani has introduced several changes to American politics—joining ideological maximalism to policy minimalism, crafting a winning political identity as a Muslim socialist, taking a stand on P",
-    "url": "https://www.nybooks.com/online/2025/12/31/democratic-excellence-zohran-mamdani/",
-    "source": "NYRB",
-    "tags": [
-      "reading",
-      "essays"
-    ],
-    "addedAt": 1767195202000,
-    "imageUrl": "https://www.nybooks.com/wp-content/uploads/2025/12/Mamdani202512_34.jpeg"
-  },
-  {
-    "id": "crxb40ansu5",
-    "type": "article",
-    "title": "Alternatives to MinIO for single-node local S3",
-    "description": "Comments",
-    "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
-    "source": "Lobsters",
-    "tags": [
-      "tech",
-      "programming"
-    ],
-    "addedAt": 1768466307000
-  },
-  {
-    "id": "crashcourse-hamlet-2",
+    "id": "crashcourse-100yrs-1",
     "type": "video",
-    "title": "Hamlet (Part 2)",
+    "title": "100 Years of Solitude (Part 1)",
     "description": "Crash Course Literature",
-    "url": "https://thecrashcourse.com/courses/ophelia-gertrude-and-regicide-hamlet-ii-crash-course-literature-204/",
+    "url": "https://thecrashcourse.com/courses/100-years-of-solitude-part-1-crash-course-literature-306/",
     "platform": "youtube",
     "source": "Crash Course",
     "tags": [
@@ -608,18 +594,18 @@
     "addedAt": 0
   },
   {
-    "id": "tidal-video-248885776",
-    "video_id": 248885776,
-    "type": "tidal-video",
-    "title": "Exibisionista",
-    "artist": "Isabella Lovestory",
-    "artist_id": 9922319,
-    "duration": 191,
-    "tidalUrl": "https://tidal.com/browse/video/248885776",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 1,
-    "source": "Tidal Video"
+    "id": "crashcourse-100yrs-2",
+    "type": "video",
+    "title": "100 Years of Solitude (Part 2)",
+    "description": "Crash Course Literature",
+    "url": "https://thecrashcourse.com/courses/100-years-of-solitude-part-2-crash-course-literature-307/",
+    "platform": "youtube",
+    "source": "Crash Course",
+    "tags": [
+      "literature",
+      "learning"
+    ],
+    "addedAt": 0
   },
   {
     "id": "crashcourse-tfa-1",
@@ -636,31 +622,45 @@
     "addedAt": 0
   },
   {
-    "id": "tidal-video-399606735",
-    "video_id": 399606735,
-    "type": "tidal-video",
-    "title": "Aquamarine / Arcamarine",
-    "artist": "Addison Rae",
-    "artist_id": 19667603,
-    "duration": 204,
-    "tidalUrl": "https://tidal.com/browse/video/399606735",
-    "imageUrl": null,
-    "explicit": false,
-    "popularity": 34,
-    "source": "Tidal Video"
+    "id": "crashcourse-tfa-2",
+    "type": "video",
+    "title": "Things Fall Apart (Part 2)",
+    "description": "Crash Course Literature",
+    "url": "https://thecrashcourse.com/courses/things-fall-apart-part-2-crash-course-literature-209/",
+    "platform": "youtube",
+    "source": "Crash Course",
+    "tags": [
+      "literature",
+      "learning"
+    ],
+    "addedAt": 0
   },
   {
-    "id": "tidal-video-435584831",
-    "video_id": 435584831,
-    "type": "tidal-video",
-    "title": "WRK",
-    "artist": "JID",
-    "artist_id": 7061089,
-    "duration": 219,
-    "tidalUrl": "https://tidal.com/browse/video/435584831",
-    "imageUrl": null,
-    "explicit": true,
-    "popularity": 45,
-    "source": "Tidal Video"
+    "id": "crashcourse-hamlet-1",
+    "type": "video",
+    "title": "Hamlet (Part 1)",
+    "description": "Crash Course Literature",
+    "url": "https://thecrashcourse.com/courses/ghosts-murder-and-more-murder-hamlet-part-i-crash-course-literature-203/",
+    "platform": "youtube",
+    "source": "Crash Course",
+    "tags": [
+      "literature",
+      "learning"
+    ],
+    "addedAt": 0
+  },
+  {
+    "id": "crashcourse-hamlet-2",
+    "type": "video",
+    "title": "Hamlet (Part 2)",
+    "description": "Crash Course Literature",
+    "url": "https://thecrashcourse.com/courses/ophelia-gertrude-and-regicide-hamlet-ii-crash-course-literature-204/",
+    "platform": "youtube",
+    "source": "Crash Course",
+    "tags": [
+      "literature",
+      "learning"
+    ],
+    "addedAt": 0
   }
 ]
